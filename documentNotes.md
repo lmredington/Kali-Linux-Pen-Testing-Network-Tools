@@ -97,11 +97,12 @@
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## Security Attack on IoT Related Devices Using Raspberry Pi and Kali Linux (Nov 2022)
-To visit our [website](https://doi-org.ezproxy.semo.edu:2443/10.1109/ICONDA56696.2022.10000370), click here.
+Database:
+
+(https://doi-org.ezproxy.semo.edu:2443/10.1109/ICONDA56696.2022.10000370)
 	
 	
-	<!--[PDF:] 
-		https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10000370-->
+<!--[PDF:] https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10000370-->
 
 ### Relevance: **HIGH**
 * < 2 years

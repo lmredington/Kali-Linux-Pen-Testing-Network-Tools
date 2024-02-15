@@ -69,7 +69,7 @@
 ## Cyber Security Actionable Education during COVID19 Third Wave in India (Apr. 2022)
 	https://doi-org.ezproxy.semo.edu:2443/10.1109/ICIEM54221.2022.9853091
 	
-### **Relevance: HIGH**
+### Relevance: **HIGH**
 * Within 2 years
 
 ### Description
@@ -98,9 +98,10 @@
 
 ##Security Attack on IoT Related Devices Using Raspberry Pi and Kali Linux (Nov 2022)
 	Database: https://doi-org.ezproxy.semo.edu:2443/10.1109/ICONDA56696.2022.10000370
+	
 	pdf: https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10000370
 
-### **Relevance: HIGH**
+### Relevance: **HIGH**
 * < 2 years
 * Keywords: cybersecurity, penetration testing, vulnerabilities, Raspberry Pi 4
 

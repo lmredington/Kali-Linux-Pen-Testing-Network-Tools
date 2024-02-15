@@ -1,6 +1,12 @@
 # Relevant Papers
 
 ## Getting pwn’d by AI: Penetration Testing with Large Language Models (Dec. 2023)
+**Database:**
+
+	https://dl-acm-org.ezproxy.semo.edu:2443/doi/10.1145/3611643.3613083
+
+**PDF:**
+
 	https://dl-acm-org.ezproxy.semo.edu:2443/doi/pdf/10.1145/3611643.3613083
 
 ### Relevance: Low
@@ -15,6 +21,12 @@
 
 
 ## Security Vulnerability Analysis using Penetration Testing Execution Standard (PTES): Case Study of Government’s Website (Mar. 2023)
+**Database:**
+
+	https://doi-org.ezproxy.semo.edu:2443/10.1145/3592307.3592329
+
+**PDF:**
+
 	https://dl-acm-org.ezproxy.semo.edu:2443/doi/pdf/10.1145/3592307.3592329
 
 ### Relevance: High
@@ -27,8 +39,14 @@
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 
-## Exploit Security Vulnerabilities by Penetration Testing (May 2022)
+## Exploit Security Vulnerabilities by Penetration Testing (May 2022)	
+**Database:**
+
 	https://doi-org.ezproxy.semo.edu:2443/10.1109/eIT53891.2022.9813929
+
+**PDF:**
+
+	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9813929
 	
 ### Relevance: High
 * < 2 years
@@ -41,6 +59,8 @@
 
 
 ## 11 penetration testing tools the pros use (Dec. 2021)
+**Database:**
+
 	https://ezproxy.semo.edu:2443/login?url=https://www.proquest.com/trade-journals/11-penetration-testing-tools-pros-use/docview/2609526331/se-2?accountid=38003
 
 ### Relevance: High
@@ -53,7 +73,13 @@
 
 
 ## Analysis and Overview of Information Gathering & Tools for Pentesting (Jan. 2021)
+**Database:**
+
 	https://doi-org.ezproxy.semo.edu:2443/10.1109/ICCCI50826.2021.9457015
+
+**PDF:**
+
+	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9457015
 	
 ### Relevance: Medium 
 * ~ 3 years
@@ -66,8 +92,14 @@
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 
-## Cyber Security Actionable Education during COVID19 Third Wave in India (Apr. 2022)
+## Cyber Security Actionable Education during COVID19 Third Wave in India (Apr. 2022)	
+**Database:**
+
 	https://doi-org.ezproxy.semo.edu:2443/10.1109/ICIEM54221.2022.9853091
+
+**PDF:**
+
+	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9853091
 	
 ### Relevance: **HIGH**
 * Within 2 years
@@ -82,7 +114,13 @@
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## FOOTHOLDER: Collection of tools and scripts used to learn and experiment the exploitation of vulnerable machines (Apr. 2023)
+**Database:**
+
 	https://doi-org.ezproxy.semo.edu:2443/10.1109/ICNWC57852.2023.10127486
+
+**PDF:**
+
+	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10127486
 
 ### Relevance: **HIGH**
 * Within 2 years
@@ -101,9 +139,9 @@
 
 	https://doi-org.ezproxy.semo.edu:2443/10.1109/ICONDA56696.2022.10000370
 	
-**PDF**
+**PDF:**
 
-	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10000370-->
+	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10000370
 
 ### Relevance: **HIGH**
 * < 2 years

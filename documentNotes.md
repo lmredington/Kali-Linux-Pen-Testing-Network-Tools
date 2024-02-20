@@ -300,9 +300,6 @@
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
-, the Avast AIC laboratory utilized the raspberry pi to execute the
-malicious malware samples to validate the presence of threat actor malware
-
 ## Other Documents Checked
 * HoneyIoT: Adaptive High-Interaction Honeypot for IoT Devices	Through Reinforcement Learning
 	* focuses on Defense

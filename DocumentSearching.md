@@ -1,7 +1,7 @@
 # Document Searching
 
 ## Key words/Searching Terms:
-"Kali Linux" "Network" "Penetration" "Tool" 
+"Kali Linux" "Network" "Penetration" "Tool" "Hack" "Attack" "Test" "Approach" "Method" "Raspberry Pi"
 
 ("All Metadata":"Network") AND ("All Metadata":Hack) AND ("All Metadata":Penetration) AND ("All Metadata":Test) OR ("All Metadata":Approach) OR ("All Metadata":Method) OR ("All Metadata":Tools)
 

@@ -19,27 +19,6 @@
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
-## FOOTHOLDER: Collection of tools and scripts used to learn and experiment the exploitation of vulnerable machines (Apr. 2023)
-**Database:**
-
-	https://doi-org.ezproxy.semo.edu:2443/10.1109/ICNWC57852.2023.10127486
-
-**PDF:**
-
-	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10127486
-
-### Relevance: **HIGH**
-* Within 2 years
-* Key words: ethical hacking, Kali Linux (vuln and assess tools), pen testing
-
-### Description
-* gives examples of network enumeration tools (nmap, NetDiscover...)
-* phases on pen testing
-* application (footholder) executes commands/tools (nmap, gobuster, ftp, metasploit, ssh, etc)
-
-
-
-<!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## Kali Linux based Empirical Investigation on Vulnerability Evaluation using Pen-Testing tools (July 2023)
 **Database:**
@@ -418,6 +397,22 @@
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
+# Done
+
+
+## FOOTHOLDER: Collection of tools and scripts used to learn and experiment the exploitation of vulnerable machines (Apr. 2023)
+**Database:**
+
+	https://doi-org.ezproxy.semo.edu:2443/10.1109/ICNWC57852.2023.10127486
+
+**Relevance**: Medium
+
+* Tool to educate users about tools and how to use them
+
+
+
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
+
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## Other Documents Checked

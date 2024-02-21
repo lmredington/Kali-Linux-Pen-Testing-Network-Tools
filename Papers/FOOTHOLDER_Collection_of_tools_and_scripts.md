@@ -10,11 +10,13 @@
 	
 ### Overall
 * Goal: educate users about tools and how to use them
-	* "In this paper, we suggest the creation of a **single location** where users may access all other significant **tools** and receive **instruction** on how to operate them."
+
+	"In this paper, we suggest the creation of a **single location** where users may access all other significant **tools** and receive **instruction** on how to operate them."
 * Novices prefer the GUI model
 	
 ## Main Topics: (State of the Art)
-* New approaches
+### New approaches
+
 Phases:
 
 (1) Observation (Reconnaissance): used to identify susceptible machines in order to launch attacks against them
@@ -33,7 +35,7 @@ They advised utilizing a more requires immediate medical attention, doing port s
 
 Most tools require root permission
 
-* Solutions
+### Solutions
 * Tools (for reconnaissance and planning)
 	* Network enumeration:
 		* NMAP
@@ -48,4 +50,5 @@ Most tools require root permission
 		* ftp
 	* Brute Forcing:
 		* Hydra
-* Methods (ex: Raspberry Pi)
+		
+### Methods (ex: Raspberry Pi)

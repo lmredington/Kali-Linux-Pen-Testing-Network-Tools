@@ -397,23 +397,6 @@
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
-# Done
-
-
-## FOOTHOLDER: Collection of tools and scripts used to learn and experiment the exploitation of vulnerable machines (Apr. 2023)
-**Database:**
-
-	https://doi-org.ezproxy.semo.edu:2443/10.1109/ICNWC57852.2023.10127486
-
-**Relevance**: Medium
-
-* Tool to educate users about tools and how to use them
-
-
-
-<!-- --------------------------------------------------------------------------------------------------------------------- -->
-
-<!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## Other Documents Checked
 * HoneyIoT: Adaptive High-Interaction Honeypot for IoT Devices	Through Reinforcement Learning
@@ -421,3 +404,19 @@
 
 ## Others to check:
 * A Middleware to Improve Analysis Coverage in IoT Vulnerability Detection: https://doi-org.ezproxy.semo.edu:2443/10.1109/IoTaIS60147.2023.10346047
+
+
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+# Done
+
+
+### FOOTHOLDER: Collection of tools and scripts used to learn and experiment the exploitation of vulnerable machines (Apr. 2023)
+**Database:**
+
+	https://doi-org.ezproxy.semo.edu:2443/10.1109/ICNWC57852.2023.10127486
+
+**Relevance**: Medium
+
+* Tool to educate users about tools and how to use them

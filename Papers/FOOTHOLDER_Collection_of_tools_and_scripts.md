@@ -10,10 +10,10 @@
 	
 ### Goal
 Educate users about tools and how to use them
-
 	"In this paper, we suggest the creation of a **single location** where users may access all other significant **tools** and receive **instruction** on how to operate them."
 	
 ## Main Topics: (State of the Art)
+
 ### New approaches
 
 Phases:

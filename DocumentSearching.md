@@ -5,6 +5,8 @@
 
 ("All Metadata":"Network") AND ("All Metadata":Hack) AND ("All Metadata":Penetration) AND ("All Metadata":Test) OR ("All Metadata":Approach) OR ("All Metadata":Method) OR ("All Metadata":Tools)
 
+"Vulnerability" "Analysis" "Tools"
+
 ## Post 2021 Articles:
 
 Namosha Veerasamy, "High-Level **Methodology** for Carrying out Combined Red and Blue Teams", Computer and Electrical Engineering 2009. ICCEE ’09. Second International Conference on, vol. 1, pp. 416-420, 2009.

@@ -6,3 +6,10 @@ Step 1) find per reviewed papers such as IEEE or ACM, etc. about the state of th
 Step 2) Send me a list of your findings we will discuss it a select the most relevant papers.
 
 Step 3) Read a paper each week and start doing an intelligent integration of the papers read week after week.
+
+
+## Main Topics: (State of the Art)
+* New approaches
+* Solutions
+* Tools
+* Methods (ex: Raspberry Pi)

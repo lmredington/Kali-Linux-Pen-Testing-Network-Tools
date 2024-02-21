@@ -19,6 +19,94 @@
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
+## FOOTHOLDER: Collection of tools and scripts used to learn and experiment the exploitation of vulnerable machines (Apr. 2023)
+**Database:**
+
+	https://doi-org.ezproxy.semo.edu:2443/10.1109/ICNWC57852.2023.10127486
+
+**PDF:**
+
+	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10127486
+
+### Relevance: **HIGH**
+* Within 2 years
+* Key words: ethical hacking, Kali Linux (vuln and assess tools), pen testing
+
+### Description
+* gives examples of network enumeration tools (nmap, NetDiscover...)
+* phases on pen testing
+* application (footholder) executes commands/tools (nmap, gobuster, ftp, metasploit, ssh, etc)
+
+
+
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+## Kali Linux based Empirical Investigation on Vulnerability Evaluation using Pen-Testing tools (July 2023)
+**Database:**
+
+	https://doi-org.ezproxy.semo.edu:2443/10.1109/WCONF58270.2023.10235163
+
+**PDF:**
+
+	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10235163
+
+### Relevance: **HIGH**
+* Within 2 years
+* Key words: Cyber Security, Penetration Testing, Hacking, Vulnerability Assessment. 
+* Describes the foundations of penetration testing as well as illustrates how and where to deploy and utilise several tools and methodologies for penetration testing using Kali Linux for detecting system vulnerabilities: and provide a review of firewalls, networking protocols, as well as basic security problems that must be addressed in the goal of better protection of the system, ending after analysing the results
+
+
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+## EAGLE: GUI-Based Penetration Testing Tool for Scanning and Enumeration (Dec 2021)
+**Database:**
+
+	https://doi-org.ezproxy.semo.edu:2443/10.1109/DeSE54285.2021.9719338
+
+**PDF:**
+
+	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9719338
+
+### Relevance: HIGH
+* Little over 2 years
+* Key words:  CLI, enumeration, GUI, network, penetration testing, RAD, scanning 
+
+
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+## Cybercheck – OSINT & Web Vulnerability Scanner (2023)
+**Database:**
+
+	https://doi-org.ezproxy.semo.edu:2443/10.1109/ICECAA58104.2023.10212207
+
+**PDF:**
+
+	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10212207
+
+### Relevance: HIGH
+* This year
+* Key words:  OSINT (Open-Source Intelligence), Web Vulnerability, Penetration Testing, Vulnerability Assessment, Enumeration, Clickjacking
+* “CyberCheck” are drafted very precisely to solve 2 important modules of the Penetration Testing Workflows. Open-Source Intelligence (OSINT) and Web Vulnerability Scanning
+
+
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+## An Analysis of Vulnerability Scanners in Web Applications for VAPT (May 2022)
+**Database:**
+
+	https://doi-org.ezproxy.semo.edu:2443/10.1109/CISES54857.2022.9844365
+
+**PDF:**
+
+	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9844365
+
+### Relevance: HIGH
+* Within 2 years
+* Key words:   Vulnerability Analysis, Reconnaissance, foot printing, spoofing, enumeration, Sniffing, NIST 800-300, CVSS
+* Focused on Vulnerability assessment and penetration testing techniques
+
+
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## Security Vulnerability Analysis using Penetration Testing Execution Standard (PTES): Case Study of Government’s Website (Mar. 2023)
 **Database:**
@@ -57,6 +145,39 @@
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
+## Scanning of Web-Applications: Algorithms and Software for Search of Vulnerabilities “Code Injection” and “Insecure Design” (Sept 2023)
+**Database:**
+
+	https://doi-org.ezproxy.semo.edu:2443/10.1109/IDAACS58523.2023.10348918
+
+**PDF:**
+
+	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10348918
+
+### Relevance: HIGH
+* Within 2 years
+* Key words:  pentest web-application; web-application vulnerability; code injection; SQL-injection; insecure design.  
+* Presents an overview of existing vulnerabilities in web applications, specifically “code injection” and “insecure design”, as well as describing the main approaches and methods used for their detection
+
+
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+## SAT: Integrated Multi-agent Blackbox Security Assessment Tool using Machine Learning (March 2022)
+**Database:**
+
+	https://doi-org.ezproxy.semo.edu:2443/10.1109/ICAI55435.2022.9773750
+
+**PDF:**
+
+	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9773750
+
+### Relevance: HIGH
+* Within 2 years
+* Key words: Web Applications, Web Security, Web Vulnerability Scanner, OWASP, DVWA, Pentesting, Security Testing
+* proposed an Integrated Multi-Agent Blackbox Security Assessment Tool (SAT) for the security assessment of web applications. Research has proved that the vulnerabilities assessment results of the SAT are more extensive and accurate
+
+
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## 11 penetration testing tools the pros use (Dec. 2021)
 **Database:**
@@ -110,29 +231,8 @@
 	* commands
 	* example results/output
 
-
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
-## FOOTHOLDER: Collection of tools and scripts used to learn and experiment the exploitation of vulnerable machines (Apr. 2023)
-**Database:**
-
-	https://doi-org.ezproxy.semo.edu:2443/10.1109/ICNWC57852.2023.10127486
-
-**PDF:**
-
-	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10127486
-
-### Relevance: **HIGH**
-* Within 2 years
-* Key words: ethical hacking, Kali Linux (vuln and assess tools), pen testing
-
-### Description
-* gives examples of network enumeration tools (nmap, NetDiscover...)
-* phases on pen testing
-* application (footholder) executes commands/tools (nmap, gobuster, ftp, metasploit, ssh, etc)
-
-
-<!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## Security Attack on IoT Related Devices Using Raspberry Pi and Kali Linux (Nov 2022)
 **Database:**
@@ -295,6 +395,26 @@
 
 
 
+
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+## A Systematic Literature Review on the Characteristics and Effectiveness of Web Application Vulnerability Scanners (March 2022)
+**Database:**
+
+	https://doi-org.ezproxy.semo.edu:2443/10.1109/ACCESS.2022.3161522
+
+**PDF:**
+
+	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9739725
+
+### Relevance: HIGH
+* Within 2 years
+* Key words:  Web applications, black-box testing, web vulnerability scanner, effectiveness and performance, OWASP top ten, detection rate.
+* Reports findings from a Systematic Literature Review (SLR) to look into the characteristics and effectiveness of the most frequently used WVS’s.
+
+
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
+
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
@@ -303,3 +423,6 @@
 ## Other Documents Checked
 * HoneyIoT: Adaptive High-Interaction Honeypot for IoT Devices	Through Reinforcement Learning
 	* focuses on Defense
+
+## Others to check:
+* A Middleware to Improve Analysis Coverage in IoT Vulnerability Detection: https://doi-org.ezproxy.semo.edu:2443/10.1109/IoTaIS60147.2023.10346047

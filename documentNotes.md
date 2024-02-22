@@ -19,8 +19,6 @@
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
-
-
 ## Kali Linux based Empirical Investigation on Vulnerability Evaluation using Pen-Testing tools (July 2023)
 **Database:**
 
@@ -37,8 +35,6 @@
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
-
-
 ## EAGLE: GUI-Based Penetration Testing Tool for Scanning and Enumeration (Dec 2021)
 **Database:**
 
@@ -53,8 +49,6 @@
 * Key words:  CLI, enumeration, GUI, network, penetration testing, RAD, scanning 
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
-
-
 
 ## Cybercheck – OSINT & Web Vulnerability Scanner (2023)
 **Database:**

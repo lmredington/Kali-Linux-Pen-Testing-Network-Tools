@@ -7,7 +7,7 @@
 
 "Vulnerability" "Analysis" "Tools"
 
-## Post 2021 Articles:
+## Pre 2021 Articles:
 
 Namosha Veerasamy, "High-Level **Methodology** for Carrying out Combined Red and Blue Teams", Computer and Electrical Engineering 2009. ICCEE ’09. Second International Conference on, vol. 1, pp. 416-420, 2009.
 * scripts available online that black hat hackers can use them

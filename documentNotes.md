@@ -19,7 +19,6 @@
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
-
 ## Kali Linux based Empirical Investigation on Vulnerability Evaluation using Pen-Testing tools (July 2023)
 **Database:**
 
@@ -33,7 +32,6 @@
 * Within 2 years
 * Key words: Cyber Security, Penetration Testing, Hacking, Vulnerability Assessment. 
 * Describes the foundations of penetration testing as well as illustrates how and where to deploy and utilise several tools and methodologies for penetration testing using Kali Linux for detecting system vulnerabilities: and provide a review of firewalls, networking protocols, as well as basic security problems that must be addressed in the goal of better protection of the system, ending after analysing the results
-
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
@@ -49,7 +47,6 @@
 ### Relevance: HIGH
 * Little over 2 years
 * Key words:  CLI, enumeration, GUI, network, penetration testing, RAD, scanning 
-
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
@@ -67,7 +64,6 @@
 * Key words:  OSINT (Open-Source Intelligence), Web Vulnerability, Penetration Testing, Vulnerability Assessment, Enumeration, Clickjacking
 * “CyberCheck” are drafted very precisely to solve 2 important modules of the Penetration Testing Workflows. Open-Source Intelligence (OSINT) and Web Vulnerability Scanning
 
-
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## An Analysis of Vulnerability Scanners in Web Applications for VAPT (May 2022)
@@ -83,7 +79,6 @@
 * Within 2 years
 * Key words:   Vulnerability Analysis, Reconnaissance, foot printing, spoofing, enumeration, Sniffing, NIST 800-300, CVSS
 * Focused on Vulnerability assessment and penetration testing techniques
-
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
@@ -104,7 +99,6 @@
 * Uses nslookup - provides information about the server and address information of the XYZ regional government website
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
-
 
 ## Exploit Security Vulnerabilities by Penetration Testing (May 2022)	
 **Database:**
@@ -138,7 +132,6 @@
 * Key words:  pentest web-application; web-application vulnerability; code injection; SQL-injection; insecure design.  
 * Presents an overview of existing vulnerabilities in web applications, specifically “code injection” and “insecure design”, as well as describing the main approaches and methods used for their detection
 
-
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## SAT: Integrated Multi-agent Blackbox Security Assessment Tool using Machine Learning (March 2022)
@@ -155,42 +148,7 @@
 * Key words: Web Applications, Web Security, Web Vulnerability Scanner, OWASP, DVWA, Pentesting, Security Testing
 * proposed an Integrated Multi-Agent Blackbox Security Assessment Tool (SAT) for the security assessment of web applications. Research has proved that the vulnerabilities assessment results of the SAT are more extensive and accurate
 
-
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
-
-## 11 penetration testing tools the pros use (Dec. 2021)
-**Database:**
-
-	https://ezproxy.semo.edu:2443/login?url=https://www.proquest.com/trade-journals/11-penetration-testing-tools-pros-use/docview/2609526331/se-2?accountid=38003
-
-### Relevance: High
-* ~2 years (couple months over)
-
-### Description
-* explains several tools
-
-<!-- --------------------------------------------------------------------------------------------------------------------- -->
-
-
-## Analysis and Overview of Information Gathering & Tools for Pentesting (Jan. 2021)
-**Database:**
-
-	https://doi-org.ezproxy.semo.edu:2443/10.1109/ICCCI50826.2021.9457015
-
-**PDF:**
-
-	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9457015
-	
-### Relevance: Medium 
-* ~ 3 years
-* Over the two year mark, but includes important and relevant information
-
-### Description
-* lists and describes several tools (ex: recon-ng) (what and ~how to use)
-* lists important things to collect for network pen test
-
-<!-- --------------------------------------------------------------------------------------------------------------------- -->
-
 
 ## Cyber Security Actionable Education during COVID19 Third Wave in India (Apr. 2022)	
 **Database:**
@@ -212,7 +170,6 @@
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
-
 ## Security Attack on IoT Related Devices Using Raspberry Pi and Kali Linux (Nov 2022)
 **Database:**
 
@@ -232,8 +189,6 @@
 * lists and explains the purpose of several tools
 * includes some commands they used
 * defined which tools were used for each attack
-
-
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
@@ -259,10 +214,7 @@
 ### Note/Quotes
 * "The primary **purpose** of ethical hacking is to test and ensure that an organization’s network is safe"
 
-
-
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
-
 
 ## Unifying Web Security Assessments with MALA: A Modular Approach (Dec 2023)
 **Database:**
@@ -281,10 +233,7 @@
 * MALA seems to be a security tool but they reference Gobuster and other EH tools as similar.
 * Lists a couple relevant tools
 
-
-
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
-
 
 ## A Systematic Review of IoT Systems Testing: Objectives, Approaches, Tools, and Challenges (Feb 2024)
 **Database:**
@@ -305,31 +254,7 @@
 	* cataloging existing tools and approaches
 	* identifying new research opportunities for interested researchers.
 
-
-
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
-
-
-## An Integrated Smart Contract Vulnerability Detection Tool Using Multi-Layer Perceptron on Real-Time Solidity Smart Contracts (Feb 2024)
-**Database:**
-
-	https://doi.org/10.1109/ACCESS.2024.3364351
-
-**PDF:**
-
-	https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10430147
-
-### Relevance: Low
-* Within 2 years
-* Key words: Smart contracts;Blockchains;Machine learning;Real-time systems;Support vector machines;Training data;Syntactics;Control engineering;Malware;Detection algorithms;Performance evaluation;Registers;Long short term memory;Blockchain;ethereum;machine learning;multi-layer perceptron;real-time smart contracts;solidity smart contracts;vulnerability analysis and detection;code analysis;software testing
-
-### Description
-* It focuses on attacking/exploiting Smart contracts so I'm not sure how relevant this is
-
-
-
-<!-- --------------------------------------------------------------------------------------------------------------------- -->
-
 
 ## Security Vulnerability Analysis and Recommendations for Open Media Vault Cloud Server on Raspberry Pi (Jan 2024)
 
@@ -348,12 +273,43 @@
 ### Description
 * The analysis was executed using two prominent security tools, Nmap and Nessus. Upon employing Nmap and Nessus in the evaluation, several security vulnerabilities were identified on the OMV Cloud server utilizing Raspberry Pi.
 
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
 
+## A Systematic Literature Review on the Characteristics and Effectiveness of Web Application Vulnerability Scanners (March 2022)
+**Database:**
+
+	https://doi-org.ezproxy.semo.edu:2443/10.1109/ACCESS.2022.3161522
+
+**PDF:**
+
+	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9739725
+
+### Relevance: HIGH
+* Within 2 years
+* Key words:  Web applications, black-box testing, web vulnerability scanner, effectiveness and performance, OWASP top ten, detection rate.
+* Reports findings from a Systematic Literature Review (SLR) to look into the characteristics and effectiveness of the most frequently used WVS’s.
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
+## An Integrated Smart Contract Vulnerability Detection Tool Using Multi-Layer Perceptron on Real-Time Solidity Smart Contracts (Feb 2024)
+**Database:**
 
-## A MULTINOMIAL CLASSIFICATION AND PREDICTION MODEL UTILIZING DEEP LEARNING FOR MALWARE DETECTION ON RASPBERRY PI INTERNET OF THINGS DEVICES USING UNRESTRAINED NETWORK CONNECTIONS
+	https://doi.org/10.1109/ACCESS.2024.3364351
+
+**PDF:**
+
+	https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10430147
+
+### Relevance: Low
+* Within 2 years
+* Key words: Smart contracts;Blockchains;Machine learning;Real-time systems;Support vector machines;Training data;Syntactics;Control engineering;Malware;Detection algorithms;Performance evaluation;Registers;Long short term memory;Blockchain;ethereum;machine learning;multi-layer perceptron;real-time smart contracts;solidity smart contracts;vulnerability analysis and detection;code analysis;software testing
+
+### Description
+* It focuses on attacking/exploiting Smart contracts so I'm not sure how relevant this is
+
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+## A MULTINOMIAL CLASSIFICATION AND PREDICTION MODEL UTILIZING DEEP LEARNING FOR MALWARE DETECTION ON RASPBERRY PI INTERNET OF THINGS DEVICES USING UNRESTRAINED NETWORK CONNECTIONS (2023)
 
 
 **Database:**
@@ -372,28 +328,6 @@
 * the Avast AIC laboratory utilized the raspberry pi to execute the malicious malware samples to validate the presence of threat actor malware
 * explored the use of deep learning artificial intelligence, machine learning, and non-parametric statistics for successfully detecting various classes of malware attacks against Raspberry Pi hardware devices over unrestrained digital communication networks
 
-
-
-
-<!-- --------------------------------------------------------------------------------------------------------------------- -->
-
-## A Systematic Literature Review on the Characteristics and Effectiveness of Web Application Vulnerability Scanners (March 2022)
-**Database:**
-
-	https://doi-org.ezproxy.semo.edu:2443/10.1109/ACCESS.2022.3161522
-
-**PDF:**
-
-	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9739725
-
-### Relevance: HIGH
-* Within 2 years
-* Key words:  Web applications, black-box testing, web vulnerability scanner, effectiveness and performance, OWASP top ten, detection rate.
-* Reports findings from a Systematic Literature Review (SLR) to look into the characteristics and effectiveness of the most frequently used WVS’s.
-
-
-<!-- --------------------------------------------------------------------------------------------------------------------- -->
-
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
@@ -405,6 +339,9 @@
 ## Others to check:
 * A Middleware to Improve Analysis Coverage in IoT Vulnerability Detection: https://doi-org.ezproxy.semo.edu:2443/10.1109/IoTaIS60147.2023.10346047
 
+* 11 penetration testing tools the pros use (Dec. 2021) https://ezproxy.semo.edu:2443/login?url=https://www.proquest.com/trade-journals/11-penetration-testing-tools-pros-use/docview/2609526331/se-2?accountid=38003
+
+* Analysis and Overview of Information Gathering & Tools for Pentesting (Jan. 2021) https://doi-org.ezproxy.semo.edu:2443/10.1109/ICCCI50826.2021.9457015
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
@@ -417,6 +354,6 @@
 
 	https://doi-org.ezproxy.semo.edu:2443/10.1109/ICNWC57852.2023.10127486
 
-**Relevance**: Medium
+**Relevance:** Medium
 
-* Tool to educate users about tools and how to use them
+**Overview:** Tool to educate users about tools and how to use them

@@ -29,7 +29,7 @@
 	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10235163
 
 ### Relevance: **HIGH**
-* Within 2 years
+* < 2 years
 * Key words: Cyber Security, Penetration Testing, Hacking, Vulnerability Assessment. 
 * Describes the foundations of penetration testing as well as illustrates how and where to deploy and utilise several tools and methodologies for penetration testing using Kali Linux for detecting system vulnerabilities: and provide a review of firewalls, networking protocols, as well as basic security problems that must be addressed in the goal of better protection of the system, ending after analysing the results
 
@@ -45,7 +45,7 @@
 	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9719338
 
 ### Relevance: HIGH
-* Little over 2 years
+* > 2 years
 * Key words:  CLI, enumeration, GUI, network, penetration testing, RAD, scanning 
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
@@ -60,7 +60,7 @@
 	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10212207
 
 ### Relevance: HIGH
-* This year
+* < 2 years
 * Key words:  OSINT (Open-Source Intelligence), Web Vulnerability, Penetration Testing, Vulnerability Assessment, Enumeration, Clickjacking
 * “CyberCheck” are drafted very precisely to solve 2 important modules of the Penetration Testing Workflows. Open-Source Intelligence (OSINT) and Web Vulnerability Scanning
 
@@ -76,7 +76,7 @@
 	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9844365
 
 ### Relevance: HIGH
-* Within 2 years
+* < 2 years
 * Key words:   Vulnerability Analysis, Reconnaissance, foot printing, spoofing, enumeration, Sniffing, NIST 800-300, CVSS
 * Focused on Vulnerability assessment and penetration testing techniques
 
@@ -128,7 +128,7 @@
 	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10348918
 
 ### Relevance: HIGH
-* Within 2 years
+* < 2 years
 * Key words:  pentest web-application; web-application vulnerability; code injection; SQL-injection; insecure design.  
 * Presents an overview of existing vulnerabilities in web applications, specifically “code injection” and “insecure design”, as well as describing the main approaches and methods used for their detection
 
@@ -144,7 +144,7 @@
 	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9773750
 
 ### Relevance: HIGH
-* Within 2 years
+* < 2 years
 * Key words: Web Applications, Web Security, Web Vulnerability Scanner, OWASP, DVWA, Pentesting, Security Testing
 * proposed an Integrated Multi-Agent Blackbox Security Assessment Tool (SAT) for the security assessment of web applications. Research has proved that the vulnerabilities assessment results of the SAT are more extensive and accurate
 
@@ -160,13 +160,10 @@
 	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9853091
 	
 ### Relevance: **HIGH**
-* Within 2 years
+* < 2 years
 
 ### Description
-* tools (includes Kali Linux tools)
-	* uses
-	* commands
-	* example results/output
+* tools (includes Kali Linux tools): uses, commands, example results/output
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
@@ -202,7 +199,7 @@
 	https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9850601
 
 ### Relevance: Medium
-* Within 2 years
+* < 2 years
 * Key words: Performance evaluation;Ethics;Computer hacking;Law;Organizations;Passwords;Network security;Hackers;Hacking;White Hat;Malicious Hacker
 
 ### Description
@@ -226,7 +223,7 @@
 	https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10425601
 
 ### Relevance: Medium
-* Within 2 years
+* < 2 years
 * Key words: Productivity;Syntactics;Security;Informatics;Cyberattack;Logistics;Cyber;Open-Source Tools;Web Security;MALA;Modularised Attack Landscape Analyser
 
 ### Description
@@ -245,7 +242,7 @@
 	https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10433067
 
 ### Relevance: **HIGH**
-* Within 2 years
+* < 2 years
 * Key words: Testing;Internet of Things;System testing;Systematics;Software systems;Computer science;Software engineering;IoT System Testing;IoT Testing Tools;IoT Testing Approaches;IoT Testing Challenges;IoT Quality Attributes
 
 ### Description
@@ -257,7 +254,6 @@
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## Security Vulnerability Analysis and Recommendations for Open Media Vault Cloud Server on Raspberry Pi (Jan 2024)
-
 **Database:**
 
 	https://doi.org/10.18280/isi.280321
@@ -267,7 +263,7 @@
 	https://www.proquest.com/pqrl/docview/2843565061/fulltextPDF/D5525B4EB57E4771PQ/29?accountid=38003
 
 ### Relevance: HIGH
-* Within 2 years
+* < 2 years
 * Key words: network security; vulnerability; port; Nmap; Nessus
 
 ### Description
@@ -285,7 +281,7 @@
 	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9739725
 
 ### Relevance: HIGH
-* Within 2 years
+* < 2 years
 * Key words:  Web applications, black-box testing, web vulnerability scanner, effectiveness and performance, OWASP top ten, detection rate.
 * Reports findings from a Systematic Literature Review (SLR) to look into the characteristics and effectiveness of the most frequently used WVS’s.
 
@@ -301,7 +297,7 @@
 	https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10430147
 
 ### Relevance: Low
-* Within 2 years
+* < 2 years
 * Key words: Smart contracts;Blockchains;Machine learning;Real-time systems;Support vector machines;Training data;Syntactics;Control engineering;Malware;Detection algorithms;Performance evaluation;Registers;Long short term memory;Blockchain;ethereum;machine learning;multi-layer perceptron;real-time smart contracts;solidity smart contracts;vulnerability analysis and detection;code analysis;software testing
 
 ### Description
@@ -310,8 +306,6 @@
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## A MULTINOMIAL CLASSIFICATION AND PREDICTION MODEL UTILIZING DEEP LEARNING FOR MALWARE DETECTION ON RASPBERRY PI INTERNET OF THINGS DEVICES USING UNRESTRAINED NETWORK CONNECTIONS (2023)
-
-
 **Database:**
 
 	https://ezproxy.semo.edu:2443/login?url=https://www.proquest.com/pqrl/dissertations-theses/multinomial-classification-prediction-model/docview/2814733211/sem-2?accountid=38003
@@ -321,7 +315,7 @@
 	https://www.proquest.com/pqrl/docview/2814733211/fulltextPDF/F5BCFE5B8A524C9CPQ/1?accountid=38003
 
 ### Relevance: Medium
-* Within 2 years
+* < 2 years
 * Key words: Deep learning; Hypothesis testing; Internet of things; Malware; Neural network; Nonparametric statistics
 
 ### Description

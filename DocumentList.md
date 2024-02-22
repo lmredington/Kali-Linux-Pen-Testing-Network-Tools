@@ -19,22 +19,6 @@
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
-## Kali Linux based Empirical Investigation on Vulnerability Evaluation using Pen-Testing tools (July 2023)
-**Database:**
-
-	https://doi-org.ezproxy.semo.edu:2443/10.1109/WCONF58270.2023.10235163
-
-**PDF:**
-
-	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10235163
-
-### Relevance: **HIGH**
-* < 2 years
-* Key words: Cyber Security, Penetration Testing, Hacking, Vulnerability Assessment. 
-* Describes the foundations of penetration testing as well as illustrates how and where to deploy and utilise several tools and methodologies for penetration testing using Kali Linux for detecting system vulnerabilities: and provide a review of firewalls, networking protocols, as well as basic security problems that must be addressed in the goal of better protection of the system, ending after analysing the results
-
-<!-- --------------------------------------------------------------------------------------------------------------------- -->
-
 ## EAGLE: GUI-Based Penetration Testing Tool for Scanning and Enumeration (Dec 2021)
 **Database:**
 
@@ -351,3 +335,13 @@
 **Relevance:** Medium
 
 **Overview:** Tool to educate users about tools and how to use them
+
+
+## Kali Linux based Empirical Investigation on Vulnerability Evaluation using Pen-Testing tools (July 2023)
+**Database:**
+
+	https://doi-org.ezproxy.semo.edu:2443/10.1109/WCONF58270.2023.10235163
+
+**Relevance:** HIGH
+
+**Overview:** Describes the foundations of penetration testing, tools and methodologies for penetration testing using Kali Linux

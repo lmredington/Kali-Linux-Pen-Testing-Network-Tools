@@ -13,3 +13,16 @@ Step 3) Read a paper each week and start doing an intelligent integration of the
 * Solutions
 * Tools
 * Methods (ex: Raspberry Pi)
+
+
+## Tools to look into: (List [here](https://linuxsecurity.expert/tools/ivre/alternatives/))
+* [0trace.py](https://linuxsecurity.expert/tools/0trace-py/) 
+* [Chiron](https://linuxsecurity.expert/tools/chiron/)
+* [Moloch](https://linuxsecurity.expert/tools/moloch/)
+* [Scapy](https://linuxsecurity.expert/tools/scapy/)
+* [Pyersinia](https://linuxsecurity.expert/tools/pyersinia/)
+* [Zenmap](https://linuxsecurity.expert/tools/zenmap/)
+* [DataSploit](https://linuxsecurity.expert/tools/datasploit/)
+* [Domain Analyzer](https://linuxsecurity.expert/tools/domain-analyzer/)
+* [InstaRecon](https://linuxsecurity.expert/tools/instarecon/)
+* [Intrigue Core](https://linuxsecurity.expert/tools/intrigue-core/)

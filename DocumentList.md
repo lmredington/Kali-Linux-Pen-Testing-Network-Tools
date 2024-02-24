@@ -1,13 +1,9 @@
 # Relevant Papers
 
 ## Getting pwn’d by AI: Penetration Testing with Large Language Models (Dec. 2023)
-**Database:**
+**[Database:](https://dl-acm-org.ezproxy.semo.edu:2443/doi/10.1145/3611643.3613083) **DOI: 10.1145/3611643.3613083
 
-	https://dl-acm-org.ezproxy.semo.edu:2443/doi/10.1145/3611643.3613083
-
-**PDF:**
-
-	https://dl-acm-org.ezproxy.semo.edu:2443/doi/pdf/10.1145/3611643.3613083
+**[PDF](https://dl-acm-org.ezproxy.semo.edu:2443/doi/pdf/10.1145/3611643.3613083) **
 
 ### Relevance: Low
 * < 2 years
@@ -20,13 +16,9 @@
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## EAGLE: GUI-Based Penetration Testing Tool for Scanning and Enumeration (Dec 2021)
-**Database:**
+**[Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/DeSE54285.2021.9719338) **DOI: 10.1109/DeSE54285.2021.9719338
 
-	https://doi-org.ezproxy.semo.edu:2443/10.1109/DeSE54285.2021.9719338
-
-**PDF:**
-
-	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9719338
+**[PDF](https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9719338) **
 
 ### Relevance: HIGH
 * > 2 years
@@ -34,30 +26,10 @@
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
-## Cybercheck – OSINT & Web Vulnerability Scanner (2023)
-**Database:**
-
-	https://doi-org.ezproxy.semo.edu:2443/10.1109/ICECAA58104.2023.10212207
-
-**PDF:**
-
-	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10212207
-
-### Relevance: HIGH
-* < 2 years
-* Key words:  OSINT (Open-Source Intelligence), Web Vulnerability, Penetration Testing, Vulnerability Assessment, Enumeration, Clickjacking
-* “CyberCheck” are drafted very precisely to solve 2 important modules of the Penetration Testing Workflows. Open-Source Intelligence (OSINT) and Web Vulnerability Scanning
-
-<!-- --------------------------------------------------------------------------------------------------------------------- -->
-
 ## An Analysis of Vulnerability Scanners in Web Applications for VAPT (May 2022)
-**Database:**
+**[Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/CISES54857.2022.9844365) **DOI: 10.1109/CISES54857.2022.9844365
 
-	https://doi-org.ezproxy.semo.edu:2443/10.1109/CISES54857.2022.9844365
-
-**PDF:**
-
-	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9844365
+**[PDF](https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9844365) **
 
 ### Relevance: HIGH
 * < 2 years
@@ -67,13 +39,9 @@
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## Security Vulnerability Analysis using Penetration Testing Execution Standard (PTES): Case Study of Government’s Website (Mar. 2023)
-**Database:**
+**[Database:](https://doi-org.ezproxy.semo.edu:2443/10.1145/3592307.3592329) **DOI: 10.1145/3592307.3592329
 
-	https://doi-org.ezproxy.semo.edu:2443/10.1145/3592307.3592329
-
-**PDF:**
-
-	https://dl-acm-org.ezproxy.semo.edu:2443/doi/pdf/10.1145/3592307.3592329
+**[PDF](https://dl-acm-org.ezproxy.semo.edu:2443/doi/pdf/10.1145/3592307.3592329) **
 
 ### Relevance: High
 * < 2 years
@@ -85,14 +53,10 @@
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## Exploit Security Vulnerabilities by Penetration Testing (May 2022)	
-**Database:**
+**[Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/eIT53891.2022.9813929) **DOI: 10.1109/eIT53891.2022.9813929
 
-	https://doi-org.ezproxy.semo.edu:2443/10.1109/eIT53891.2022.9813929
+**[PDF](https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9813929) **
 
-**PDF:**
-
-	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9813929
-	
 ### Relevance: High
 * < 2 years
 
@@ -103,13 +67,9 @@
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## Scanning of Web-Applications: Algorithms and Software for Search of Vulnerabilities “Code Injection” and “Insecure Design” (Sept 2023)
-**Database:**
+**[Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/IDAACS58523.2023.10348918) **DOI: 10.1109/IDAACS58523.2023.10348918
 
-	https://doi-org.ezproxy.semo.edu:2443/10.1109/IDAACS58523.2023.10348918
-
-**PDF:**
-
-	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10348918
+**[PDF](https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10348918) **
 
 ### Relevance: HIGH
 * < 2 years
@@ -119,13 +79,9 @@
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## SAT: Integrated Multi-agent Blackbox Security Assessment Tool using Machine Learning (March 2022)
-**Database:**
+**[Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/ICAI55435.2022.9773750) **DOI: 10.1109/ICAI55435.2022.9773750
 
-	https://doi-org.ezproxy.semo.edu:2443/10.1109/ICAI55435.2022.9773750
-
-**PDF:**
-
-	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9773750
+**[PDF](https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9773750) **
 
 ### Relevance: HIGH
 * < 2 years
@@ -135,14 +91,10 @@
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## Cyber Security Actionable Education during COVID19 Third Wave in India (Apr. 2022)	
-**Database:**
+**Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/ICIEM54221.2022.9853091) **DOI: 10.1109/ICIEM54221.2022.9853091
 
-	https://doi-org.ezproxy.semo.edu:2443/10.1109/ICIEM54221.2022.9853091
+**[PDF](https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9853091) **
 
-**PDF:**
-
-	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9853091
-	
 ### Relevance: **HIGH**
 * < 2 years
 
@@ -152,13 +104,9 @@
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## Security Attack on IoT Related Devices Using Raspberry Pi and Kali Linux (Nov 2022)
-**Database:**
+**[Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/ICONDA56696.2022.10000370) **DOI: 10.1109/ICONDA56696.2022.10000370
 
-	https://doi-org.ezproxy.semo.edu:2443/10.1109/ICONDA56696.2022.10000370
-	
-**PDF:**
-
-	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10000370
+**[PDF](https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10000370) **
 
 ### Relevance: **HIGH**
 * < 2 years
@@ -174,13 +122,7 @@
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## Ethical Hacking: A Technique to Enhance Information Security (May 2022)
-**Database:**
-
-	https://doi.org/10.1109/COM-IT-CON54601.2022.9850601
-
-**PDF:**
-
-	https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9850601
+**[Database:](https://doi.org/10.1109/COM-IT-CON54601.2022.9850601) **DOI: 10.1109/COM-IT-CON54601.2022.9850601
 
 ### Relevance: Medium
 * < 2 years
@@ -198,13 +140,7 @@
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## Unifying Web Security Assessments with MALA: A Modular Approach (Dec 2023)
-**Database:**
-
-	https://doi.org/10.1109/SOLI60636.2023.10425601
-
-**PDF:**
-
-	https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10425601
+**[Database:](https://doi.org/10.1109/SOLI60636.2023.10425601) **DOI: 10.1109/SOLI60636.2023.10425601
 
 ### Relevance: Medium
 * < 2 years
@@ -217,13 +153,9 @@
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## A Systematic Review of IoT Systems Testing: Objectives, Approaches, Tools, and Challenges (Feb 2024)
-**Database:**
+**[Database:](https://doi.org/10.1109/TSE.2024.3363611) **DOI: 10.1109/TSE.2024.3363611
 
-	https://doi.org/10.1109/TSE.2024.3363611
-
-**PDF:**
-
-	https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10433067
+**[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10433067) **
 
 ### Relevance: **HIGH**
 * < 2 years
@@ -238,13 +170,9 @@
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## Security Vulnerability Analysis and Recommendations for Open Media Vault Cloud Server on Raspberry Pi (Jan 2024)
-**Database:**
+**[Database:](https://doi.org/10.18280/isi.280321) ** DOI: 10.18280/isi.280321
 
-	https://doi.org/10.18280/isi.280321
-
-**PDF:**
-
-	https://www.proquest.com/pqrl/docview/2843565061/fulltextPDF/D5525B4EB57E4771PQ/29?accountid=38003
+**[PDF](https://www.proquest.com/pqrl/docview/2843565061/fulltextPDF/D5525B4EB57E4771PQ/29?accountid=38003) **
 
 ### Relevance: HIGH
 * < 2 years
@@ -256,13 +184,9 @@
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## A Systematic Literature Review on the Characteristics and Effectiveness of Web Application Vulnerability Scanners (March 2022)
-**Database:**
+**[Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/ACCESS.2022.3161522) **DOI: 10.1109/ACCESS.2022.3161522
 
-	https://doi-org.ezproxy.semo.edu:2443/10.1109/ACCESS.2022.3161522
-
-**PDF:**
-
-	https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9739725
+**[PDF](https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9739725) **
 
 ### Relevance: HIGH
 * < 2 years
@@ -272,13 +196,9 @@
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## An Integrated Smart Contract Vulnerability Detection Tool Using Multi-Layer Perceptron on Real-Time Solidity Smart Contracts (Feb 2024)
-**Database:**
+**[Database:](https://doi.org/10.1109/ACCESS.2024.3364351) **DOI: 10.1109/ACCESS.2024.3364351
 
-	https://doi.org/10.1109/ACCESS.2024.3364351
-
-**PDF:**
-
-	https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10430147
+**[PDF:](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10430147) **
 
 ### Relevance: Low
 * < 2 years
@@ -290,13 +210,11 @@
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
 ## A MULTINOMIAL CLASSIFICATION AND PREDICTION MODEL UTILIZING DEEP LEARNING FOR MALWARE DETECTION ON RASPBERRY PI INTERNET OF THINGS DEVICES USING UNRESTRAINED NETWORK CONNECTIONS (2023)
-**Database:**
+**[Database:](https://ezproxy.semo.edu:2443/login?url=https://www.proquest.com/pqrl/dissertations-theses/multinomial-classification-prediction-model/docview/2814733211/sem-2?accountid=38003) **
 
-	https://ezproxy.semo.edu:2443/login?url=https://www.proquest.com/pqrl/dissertations-theses/multinomial-classification-prediction-model/docview/2814733211/sem-2?accountid=38003
+**[PDF](https://www.proquest.com/pqrl/docview/2814733211/fulltextPDF/F5BCFE5B8A524C9CPQ/1?accountid=38003) **
 
-**PDF:**
-
-	https://www.proquest.com/pqrl/docview/2814733211/fulltextPDF/F5BCFE5B8A524C9CPQ/1?accountid=38003
+	
 
 ### Relevance: Medium
 * < 2 years
@@ -328,9 +246,7 @@
 
 
 ### FOOTHOLDER: Collection of tools and scripts used to learn and experiment the exploitation of vulnerable machines (Apr. 2023)
-**Database:**
-
-	https://doi-org.ezproxy.semo.edu:2443/10.1109/ICNWC57852.2023.10127486
+**[Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/ICNWC57852.2023.10127486) **DOI: 10.1109/ICNWC57852.2023.10127486
 
 **Relevance:** Medium
 
@@ -338,10 +254,16 @@
 
 
 ## Kali Linux based Empirical Investigation on Vulnerability Evaluation using Pen-Testing tools (July 2023)
-**Database:**
-
-	https://doi-org.ezproxy.semo.edu:2443/10.1109/WCONF58270.2023.10235163
+**[Database:](https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/document/10235163) **DOI: 10.1109/WCONF58270.2023.10235163
 
 **Relevance:** HIGH
 
 **Overview:** Describes the foundations of penetration testing, tools and methodologies for penetration testing using Kali Linux
+
+
+## Cybercheck – OSINT & Web Vulnerability Scanner (2023)
+**[Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/ICECAA58104.2023.10212207) **DOI: 10.1109/ICECAA58104.2023.10212207
+
+**Relevance:** HIGH
+
+**Overview:** Open-Source Intelligence (OSINT) and Web Vulnerability Scanning

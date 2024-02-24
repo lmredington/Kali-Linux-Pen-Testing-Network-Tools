@@ -253,7 +253,7 @@
 **Overview:** Tool to educate users about tools and how to use them
 
 
-## Kali Linux based Empirical Investigation on Vulnerability Evaluation using Pen-Testing tools (July 2023)
+### Kali Linux based Empirical Investigation on Vulnerability Evaluation using Pen-Testing tools (July 2023)
 [Database:](https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/document/10235163) DOI: 10.1109/WCONF58270.2023.10235163
 
 **Relevance:** HIGH
@@ -261,7 +261,7 @@
 **Overview:** Describes the foundations of penetration testing, tools and methodologies for penetration testing using Kali Linux
 
 
-## Cybercheck – OSINT & Web Vulnerability Scanner (2023)
+### Cybercheck – OSINT & Web Vulnerability Scanner (2023)
 [Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/ICECAA58104.2023.10212207) DOI: 10.1109/ICECAA58104.2023.10212207
 
 **Relevance:** HIGH

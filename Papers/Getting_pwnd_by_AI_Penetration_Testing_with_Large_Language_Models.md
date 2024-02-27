@@ -3,6 +3,12 @@
 | [Database](https://dl-acm-org.ezproxy.semo.edu:2443/doi/10.1145/3611643.3613083) | DOI [10.1145/3611643.3613083](https://dl.acm.org/doi/10.1145/3611643.3613083)	| [PDF](https://dl-acm-org.ezproxy.semo.edu:2443/doi/pdf/10.1145/3611643.3613083)	|
 |----------|----------|----------|
 
+| Resources	|
+|----------|
+| [Database](https://dl-acm-org.ezproxy.semo.edu:2443/doi/10.1145/3611643.3613083) |
+| DOI [10.1145/3611643.3613083](https://dl.acm.org/doi/10.1145/3611643.3613083) |
+| [PDF](https://dl-acm-org.ezproxy.semo.edu:2443/doi/pdf/10.1145/3611643.3613083) |
+
 ### Goal: This paper explores the potential use of large-language models, such as GPT3.5, to augment penetration testers with AI sparring partners. 
 
 We explore two distinct use cases: high-level task planning for security testing assignments and low level vulnerability hunting within a vulnerable virtual machine

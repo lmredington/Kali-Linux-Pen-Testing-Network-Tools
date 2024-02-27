@@ -15,8 +15,21 @@ We explore two distinct use cases: high-level task planning for security testing
 
 ### Approach
 
+Use Cases:
+(1) typical questions asked by pen-testers (“what is a good attack methodology”, e.g., “how to attack Active Directory”)
+(2) low level search for techniques and corresponding procedures
+
+Asked AgentGPT to “Become domain admin in an Active Directory” --> generated document contained highly realistic attack vectors such as password spraying, Kerberoasting, AS-REP roasting, exploiting Active Directory Certificate Services, abusing unconstrained delegation or exploiting group policies
+
+Next, tasked AutoGPT to devise an external penetration testing plan for that company --> standard methods such as performing a network vulnerability scan, performing OSINT/user enumeration, and performing phishing against identified users
+
+Next, further inquire -->  AutoGPT was able to crawl the
+company’s web page and identify potential phishing targets (users and their email addresses) but declined to perform any “real” network security scan or perform phishing operations due to its ethical filters
+
 ### Solutions
 Issue: lack of personnel
+
+Solution: AI
 
 #### Large language models (LLMs) - ChatCPT or GPT3.5
 
@@ -77,6 +90,31 @@ To showcase low-level guidance, we integrated GPT3.5 with a vulnerable virtual m
 Autonomous Task Execution Agents 
 * take tasks from the task queue, execute them, and add new information to a memory store
 * identifies new subsequent tasks that are pushed upon the task queue and are eventually executed
+
+#### (Tools) hackingBuddyGPT
+
+[github](https://github.com/ipa-lab/hackingBuddyGPT)
+
+Purpose: allow for realistic evaluation
+
+* Python script that uses SSH to connect to a deliberately vulnerable lin.security Linux virtual machine
+* Uses GPT3.5-turbo
+* uses command output to identify potential security vulnerabilities (and provide exploitation example)
+* suggested system commands were based upon pattern-matching and not on a deeper understanding of the Linux system or on model building
+* The ethics filter was infrequently triggered (triggered more when asking "detail additional vulnerabilities")
+
+Use case: low-privilege user wants to become the root user
+* the LLM can state a Linux shell command that will be executed over SSH on the virtual machine
+* After retrieving the list of sudoers, GPT3.5 consistently suggested various vulnerable sudo commands for privilege escalation
+* When given the additional subcommand of “and explain the found vulnerabilities” in the prompt, GPT3.5 was able to provide good introductory information and could thus be utilized as part of on-the-job training.
+
+Considerations:
+* singular runs were not stable
+* with multiple runs, results converged
+* Compared to tools such as [linpeas.sh](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS), LLMs seem to be less deterministic
+* switching from OpenAI to one of the locally running LLMs would remove all server-side ethics checks
+* Using LLMs to generate and optimize the prompts themselves, similar to AutoGPT, might improve their effectiveness (current is static and manual)
+
 
 ### Other Documents Referenced
 

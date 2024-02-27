@@ -1,10 +1,10 @@
 # FOOTHOLDER: Collection of tools and scripts used to learn and experiment the exploitation of vulnerable machines (Apr. 2023)
 
-| Resources	|
-|----------|
-| [Database](https://doi-org.ezproxy.semo.edu:2443/10.1109/ICNWC57852.2023.10127486) |
-| DOI  10.1109/ICNWC57852.2023.10127486 |
-| [PDF](https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10127486) |
+| Resources	| Link |
+|----------|----------|
+| Database | https://doi-org.ezproxy.semo.edu:2443/10.1109/ICNWC57852.2023.10127486 |
+| DOI | 10.1109/ICNWC57852.2023.10127486 |
+| PDF | https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10127486 |
 	
 ### Goal: Educate users about tools and how to use them
 

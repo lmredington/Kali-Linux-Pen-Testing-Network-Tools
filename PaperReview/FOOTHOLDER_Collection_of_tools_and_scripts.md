@@ -1,15 +1,17 @@
 # FOOTHOLDER: Collection of tools and scripts used to learn and experiment the exploitation of vulnerable machines (Apr. 2023)
 
+### Goal: Educate users about tools and how to use them
+
+	"In this paper, we suggest the creation of a **single location** where users may access all other significant **tools** and receive **instruction** on how to operate them."
+	
+	
 | Resources	| Link |
 |----------|----------|
 | Database | https://doi-org.ezproxy.semo.edu:2443/10.1109/ICNWC57852.2023.10127486 |
 | DOI | 10.1109/ICNWC57852.2023.10127486 |
 | PDF | https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10127486 |
 	
-### Goal: Educate users about tools and how to use them
 
-	"In this paper, we suggest the creation of a **single location** where users may access all other significant **tools** and receive **instruction** on how to operate them."
-	
 ## Main Topics: (State of the Art)
 
 ### New approaches

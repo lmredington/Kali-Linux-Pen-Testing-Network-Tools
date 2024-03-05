@@ -1,20 +1,5 @@
 # Relevant Papers
 
-## Getting pwn’d by AI: Penetration Testing with Large Language Models (Dec. 2023)
-[Database:](https://dl-acm-org.ezproxy.semo.edu:2443/doi/10.1145/3611643.3613083) DOI: 10.1145/3611643.3613083
-
-[PDF](https://dl-acm-org.ezproxy.semo.edu:2443/doi/pdf/10.1145/3611643.3613083) 
-
-### Relevance: Low
-* < 2 years
-* Doesn't go over Kali specific tools, doesn't seem to work with networking
-
-### Description:
-* AutoGPT’s plan included standard methods such as performing a network vulnerability scan, performing OSINT/user enumeration, and performing phishing against identified users.
-* AutoGPT was able to crawl the company’s web page and identify potential phishing targets (users and their email addresses) but declined to perform any “real” network security scan or perform phishing operations due to its ethical filters. 
-
-<!-- --------------------------------------------------------------------------------------------------------------------- -->
-
 ## EAGLE: GUI-Based Penetration Testing Tool for Scanning and Enumeration (Dec 2021)
 [Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/DeSE54285.2021.9719338) DOI: 10.1109/DeSE54285.2021.9719338
 
@@ -267,3 +252,11 @@
 **Relevance:** HIGH
 
 **Overview:** Open-Source Intelligence (OSINT) and Web Vulnerability Scanning
+
+
+## Getting pwn’d by AI: Penetration Testing with Large Language Models (Dec. 2023)
+[Database:](https://dl-acm-org.ezproxy.semo.edu:2443/doi/10.1145/3611643.3613083) DOI: 10.1145/3611643.3613083
+
+**Relevance:** High
+
+**Overview:** Usese of large-language models, such as GPT3.5, to augment penetration testers with AI sparring partners. 

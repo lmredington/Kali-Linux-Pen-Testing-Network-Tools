@@ -66,6 +66,20 @@ and open service that may be attacked
 	* Brute Forcing:
 		* Hydra
 		
+**Listed:**
+- nmap
+- FTP
+- Metasploit
+- Gobuster
+- Telnet
+- Hydra
+- Dirbuster
+- MySQL
+- SSH
+- FFUF
+- Nikto
+- Enum4linux
+		
 		
 ### Methods (ex: Raspberry Pi)
 

@@ -11,18 +11,6 @@
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
-## An Analysis of Vulnerability Scanners in Web Applications for VAPT (May 2022)
-[Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/CISES54857.2022.9844365) DOI: 10.1109/CISES54857.2022.9844365
-
-[PDF](https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9844365) 
-
-### Relevance: HIGH
-* < 2 years
-* Key words:   Vulnerability Analysis, Reconnaissance, foot printing, spoofing, enumeration, Sniffing, NIST 800-300, CVSS
-* Focused on Vulnerability assessment and penetration testing techniques
-
-<!-- --------------------------------------------------------------------------------------------------------------------- -->
-
 ## Security Vulnerability Analysis using Penetration Testing Execution Standard (PTES): Case Study of Government’s Website (Mar. 2023)
 [Database:](https://doi-org.ezproxy.semo.edu:2443/10.1145/3592307.3592329) DOI: 10.1145/3592307.3592329
 
@@ -259,4 +247,12 @@
 
 **Relevance:** High
 
-**Overview:** Usese of large-language models, such as GPT3.5, to augment penetration testers with AI sparring partners. 
+**Overview:** Uses of large-language models, such as GPT3.5, to augment penetration testers with AI sparring partners. 
+
+
+## An Analysis of Vulnerability Scanners in Web Applications for VAPT (May 2022)
+[Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/CISES54857.2022.9844365) DOI: 10.1109/CISES54857.2022.9844365
+
+**Relevance:** HIGH
+
+**Overview:** focus on various vulnerability analysis tools forming basis for VAPT for short and try to analyze the various impact with respect to stages of penetration testing.

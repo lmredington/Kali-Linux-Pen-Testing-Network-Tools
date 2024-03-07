@@ -28,6 +28,9 @@
 | Wireshark			| Exploitation[3]											| Capture network packets																									| Mentioned: [3]	| 
 | Nessus			| Scanning[3]												| 																															| Mentioned: [3]	| 
 | Nexpose			| Scanning[3]												| 																															| Mentioned: [3]	| 
+| OWASP ZAP			| 															| 																															| Mentioned: [5]	| 
+| Acunetix			|  															| 																															| Mentioned: [5]	| 
+| Paros				| 															| 																															| Mentioned: [5]	| 
 
 
 [1] Footholder

@@ -11,20 +11,6 @@
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
-## Security Vulnerability Analysis using Penetration Testing Execution Standard (PTES): Case Study of Government’s Website (Mar. 2023)
-[Database:](https://doi-org.ezproxy.semo.edu:2443/10.1145/3592307.3592329) DOI: 10.1145/3592307.3592329
-
-[PDF](https://dl-acm-org.ezproxy.semo.edu:2443/doi/pdf/10.1145/3592307.3592329) 
-
-### Relevance: High
-* < 2 years
-
-### Description
-* Testing utilized Kali Linux and tools (ex: OWASP ZAP, Acunetix, Nmap, Paros, and others)
-* Uses nslookup - provides information about the server and address information of the XYZ regional government website
-
-<!-- --------------------------------------------------------------------------------------------------------------------- -->
-
 ## Exploit Security Vulnerabilities by Penetration Testing (May 2022)	
 [Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/eIT53891.2022.9813929) DOI: 10.1109/eIT53891.2022.9813929
 
@@ -256,3 +242,11 @@
 **Relevance:** HIGH
 
 **Overview:** focus on various vulnerability analysis tools forming basis for VAPT for short and try to analyze the various impact with respect to stages of penetration testing.
+
+
+## Security Vulnerability Analysis using Penetration Testing Execution Standard (PTES): Case Study of Government’s Website (Mar. 2023)
+[Database:](https://doi-org.ezproxy.semo.edu:2443/10.1145/3592307.3592329) DOI: 10.1145/3592307.3592329
+
+**Relevance:** High
+
+**Overview:** Testing utilized Kali Linux and tools (ex: OWASP ZAP, Acunetix, Nmap, Paros, and others)

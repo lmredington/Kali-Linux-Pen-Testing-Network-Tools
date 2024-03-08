@@ -81,7 +81,7 @@ and open service that may be attacked
 - Enum4linux
 		
 		
-### Methods (ex: Raspberry Pi)
+### Equipment (ex: Raspberry Pi)
 
 Since **KALI Machine** is the most popular ethical hacking Linux Distro, it is preferable that the programme be operating on it during the initial step of resource confirmation
 

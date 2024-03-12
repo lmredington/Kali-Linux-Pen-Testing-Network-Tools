@@ -159,8 +159,11 @@
 		- Automated
 		- Most popular compared to counterparts
 		- Does not require attacker to have in-depth knowledge
+		- Can be done even if authentication is required (since capable of working with cookies)
+		- bypass firewall in search of SQL injection vuln (by generating random user-agent client strings
 	
 	Additional Notes:
+		
 		
 		Types of Vulnerabilities Detected:
 			- Error-Based Injection
@@ -180,7 +183,9 @@
 		
 	Pros: 
 		- Customizable 
-		
+		- Identify potential points of exploitation
+			- By: thoroughly analyzing app inputs and behaviors
+		- Exploitation features (can gain unauthorized access to database and manipulate data)
 	Cons:
 		- Only supports MySQL/MariaDB
 	
@@ -241,16 +246,21 @@
 
 	Reference Page:  https://aquasecurity.github.io/trivy/v0.19.2
 	
-	Purpose: 
+	Purpose: Vulnerability Scanner - identifying security vulnerabilities in container images and helps ensure that containers are free from known vulnerabilities before deployment
 		
+	Provides: detailed reports on vulnerabilities found
+	
 	Pros: 
-		- 
-		
-	Cons:
+		- Open-source
+		- Container-focused approach
+		- useful in securing containerized environments
+		- useful in ensuring the integrity of container images used in deployment pipelines. 
 	
 	Additional Notes:
-		
-		
+		- static-scanner
+		- for containerized environments
+		- analyzes the layers and dependencies within the container image to identify potential security issues
+
 <br>
 
 <a id="snyk"></a>
@@ -258,17 +268,22 @@
 
 	Reference Page: https://security.snyk.io
 	
-	Purpose: 
+	Purpose: in containers and infrastructure configurations as code (IaC):
+		- Scan and prioritize information security
+		- Detect vulnerabilities in modules hosted and/or not hosted in a tested repository
+		- Identify vulnerabilities
 		
 	Pros: 
-		- 
+		- Free access
+		- Works with popular programming languages (use for web app development)
 		
 	Cons:
-		- 
+		- Free access has limited scanning capabilities
 	
 	Additional Notes:
-		
-		
+		- Enterprise solution
+		- List of supported languages found at: https://docs.snyk.io/introducing-snyk/snyk-languages-and-integrations
+		- Application example: statistical analysis
 <br>
 
 <a id="nmap"></a>
@@ -276,16 +291,18 @@
 
 	Reference Page: https://nmap.org
 	
-	Purpose: 
+	Purpose: Network Scanning 
 		
-	Pros: 
-		- 
-		
-	Cons:
-		- 
-	
+		(to conduct reconnaissance on the internal network of a web application in order to have an understanding of the target and identify its vulnerabilities before an attack)
+
 	Additional Notes:
+		- Can integrate Nmap into the CI/CD cycle
+		- Nmap already has access to the internal network by default
+		- can be performed after setting up the internal infrastructure of the web application -- to ensure that components of the web application that should not have public access to the internet (e.g. database server do not have privileged access)
 		
+		Useful for:
+			- Security Auditing
+			- Regular network management task (e.g. network exploration, service and schedule monitoring, and host or service uptime tracking)
 		
 <br>
 
@@ -294,17 +311,22 @@
 
 	Reference Page: https://www.metasploit.com
 	
-	Purpose: 
+	Purpose:  penetration testing platform that enables the discovery, exploitation, and validation of vulnerabilitie
 		
+	Provides: wide range of exploits, payloads, and auxiliary modules that can be used to test and validate vulnerabilities in target systems
+
 	Pros: 
-		- 
-		
+		- Command-line and web-based interface
+		- Allows users to leverage collection of known exploits and techniques
 	Cons:
-		- 
+		- Have to be careful to comply with legal and ethical guidelines (only use with proper authorization and consent)
 	
 	Additional Notes:
-		
-		
+		- includes anti-forensic and remediation tool
+		- Some tools built into framework
+		- Professionals can simulate real-world attacks to assess the security posture of systems and applications
+		- useful for pen testing, vuln. assessment, and security research
+		- Example of use: complete pentesting tool in cloud and locally
 <br>
 
 ----

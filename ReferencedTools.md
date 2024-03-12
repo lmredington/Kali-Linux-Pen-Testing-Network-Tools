@@ -4,7 +4,7 @@
 |----------|--------|----|----|
 | Nmap 				| Reconnaissance & Planning[1], Network Enumeration[1]; Intelligence Gathering (PTES Stage)[5]		| ports, services, OS, fundamental vulnerabilities, host detection 															| "nmap disperindag.xxxprov.id"[5] 			| Analysis: [3],[5]; Used:[2],[3]; Mentioned: [6] 	|
 | NetDiscover 		| Reconnaissance & Planning[1], Network Enumeration[1] 												| target IP 																												| 											| Used: [1] 	|
-| Metasploit 		| Gaining Access[3], Exploitation[3]																| Gain system access through shell-based access																				| 											| Used: [1]; Mentioned: [3],[6]	|
+| Metasploit 		| Gaining Access[3], Exploitation[3]																| Penetration testing platform; discovery, exploitation, and validation of vulnerabilities [6]; Leverge known exploits and techniques, simulate real-world attacks; Gain system access through shell-based access																				| 											| Used: [1]; Mentioned: [3],[6]	|
 | Gobuster			| Exploitation																						| Directory Enumeration																										| 											| Used: [1]	| 
 | Telnet			| Service Enumeration																				| 																															| 											| Used: [1]	| 
 | Hydra				| Exploitation[3]																					| Brute Forcing																												| 											| Used: [1]; Mentioned: [3]	| 
@@ -34,13 +34,13 @@
 | nslookup			| Intelligence Gathering (PTES Stage)[5]															| DNS lookup; server and address information of website																		| "nslookup disperindog.xxxprov.go.id"[5] 	| Analysis: [5]	| 
 | dig				| Intelligence Gathering (PTES Stage)[5]															| DNS name servers information; Troubleshoot DNS problems																	| 											| Analysis: [5]	| 
 
-| Checkov			| Scanning																									| --- 																													| --- 										| Mentioned: [6]	| 
-| Trivy				| ---																									| ---																													| ---										| Mentioned: [6]	| 
-| Snyk				| ---																									| ---																													| ---										| Mentioned: [6]	| 
+| Checkov			| Scanning																							| --- 																													| --- 										| Mentioned: [6]	| 
+| Trivy				| Scanning [6]																						| Analyzes layers and dependencies within a container image to identify potential security issues, returns detailed report	| ---										| Mentioned: [6]	| 
+| Snyk				| Scanning, Vuln Analysis																								| (in Containers and IaC:) Scan and prioritize information security, Detect vulnerabilities in modules hosted and/or not hosted in a tested repository, Identify vulnerabilities		| ---										| Mentioned: [6]	| 
 
-| SQLMap			| Scanning																									| Automated detection of SQL injection vulnerabilities																													| ---										| Analysis: [6]	| 
-| Blisqy			| Scanning, Exploitation																									| Find and exploit Time-based Blind SQL injection vulnerabilities in HTTP headers																													| ---										| Analysis: [6]	| 
-| jSQL Injection	| Scanning, Exploitation																									| Detect and exploit SQL injection vulnerabilities in web applications that use SQL databases																													| ---										| Analysis: [6]	| 
+| SQLMap			| Scanning																							| Automated detection of SQL injection vulnerabilities																													| ---										| Analysis: [6]	| 
+| Blisqy			| Scanning, Exploitation																			| Find and exploit Time-based Blind SQL injection vulnerabilities in HTTP headers																													| ---										| Analysis: [6]	| 
+| jSQL Injection	| Scanning, Exploitation																			| Detect and exploit SQL injection vulnerabilities in web applications that use SQL databases																													| ---										| Analysis: [6]	| 
 
 
 

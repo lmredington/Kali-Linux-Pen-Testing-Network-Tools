@@ -1,7 +1,7 @@
 # Referenced Tools
 
 | Tools				| Phases Used																						| Features 																													| Example Commands	| Referenced Material |
-|----------|
+|-----				|-----																								|----																														|----										|----					|
 | AutoGPT			| Reconnaissance & Planning[4]																		| Devise an external penetration testing plan; identify potential phishing targets (on Web page)							| 											| Mentioned: [4]	| 
 | Blisqy			| Scanning, Exploitation																			| Find and exploit Time-based Blind SQL injection vulnerabilities in HTTP headers											| ---										| Analysis: [6]	| 
 | Censys			|																									| Vulnerability detection and filtering													 									| 											| Used: [2]	| 

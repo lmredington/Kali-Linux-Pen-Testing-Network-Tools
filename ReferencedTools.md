@@ -38,8 +38,8 @@
 
 <br> 
 
-| Tools				| Phases Used																						| Features 																													| Example Commands	| Referenced Material |
-|-----|
+| Tools				| Phases Used																						| Features 																													| Example Commands							| Referenced Material |
+|-----				|-----																								|----																														|----										|----					|
 | Acunetix			| 																									| 																															| 											| Analysis: [7]; Mentioned: [5]	| 
 | HP Web Inspect	|																								|   																														|  										| Analysis: [7]	| 
 | NetSparker		| 																								|   																														|  										| Analysis: [7]	| 

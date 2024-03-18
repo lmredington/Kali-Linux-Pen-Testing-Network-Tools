@@ -18,7 +18,7 @@
 | Hydra				| Exploitation[3]																					| Brute Forcing																												| 											| Used: [1]; Mentioned: [3]	| 
 | jSQL Injection	| Scanning, Exploitation																			| Detect and exploit SQL injection vulnerabilities in web applications that use SQL databases								| ---										| Analysis: [6]	| 
 | Maltego			| Reconnaissance																					| OSINT tool for reconnaissance													 											| 											| Analysis: [3]; Used: [2]|
-| Metasploit 		| Gaining Access[3], Exploitation[3]																| Penetration testing platform; discovery, exploitation, and validation of vulnerabilities [6]; Leverge known exploits and techniques, simulate real-world attacks; Gain system access through shell-based access																				| 											| Used: [1]; Mentioned: [3],[6]	|
+| Metasploit 		| Gaining Access[3], Exploitation[3]																| discovery, exploitation, and validation of vulnerabilities [6]; Leverge known exploits and techniques, simulate real-world attacks; Gain system access through shell-based access	| 											| Used: [1]; Mentioned: [3],[6]	|
 | MySQL				|																									| 																															| 											| Used: [1]	| 
 | NetDiscover 		| Reconnaissance & Planning[1], Network Enumeration[1] 												| target IP 																												| 											| Used: [1] 	|
 | Nexpose			| Scanning[3]																						| 																															| 											| Mentioned: [3]	| 
@@ -35,6 +35,11 @@
 | Wireshark			| Exploitation[3]																					| Capture network packets																									| 											| Mentioned: [3]	| 
 | ZapBurp			| Access (Vuln. Analysis Phase)[3]																	| Perform vulnerability scan; Provide mitigation measures 																	| 											| Analysis: [3]	| 
 
+
+<br> 
+
+| Tools				| Phases Used																						| Features 																													| Example Commands	| Referenced Material |
+|-----|
 | Acunetix			| 																									| 																															| 											| Analysis: [7]; Mentioned: [5]	| 
 | HP Web Inspect	|---																								|---  																														|--- 										| Analysis: [7]	| 
 | NetSparker		|---																								|---  																														|--- 										| Analysis: [7]	| 

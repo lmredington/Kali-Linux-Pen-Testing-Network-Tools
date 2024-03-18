@@ -25,18 +25,6 @@
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
-## Scanning of Web-Applications: Algorithms and Software for Search of Vulnerabilities “Code Injection” and “Insecure Design” (Sept 2023)
-[Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/IDAACS58523.2023.10348918) DOI: 10.1109/IDAACS58523.2023.10348918
-
-[PDF](https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10348918) 
-
-### Relevance: HIGH
-* < 2 years
-* Key words:  pentest web-application; web-application vulnerability; code injection; SQL-injection; insecure design.  
-* Presents an overview of existing vulnerabilities in web applications, specifically “code injection” and “insecure design”, as well as describing the main approaches and methods used for their detection
-
-<!-- --------------------------------------------------------------------------------------------------------------------- -->
-
 ## SAT: Integrated Multi-agent Blackbox Security Assessment Tool using Machine Learning (March 2022)
 [Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/ICAI55435.2022.9773750) DOI: 10.1109/ICAI55435.2022.9773750
 
@@ -250,3 +238,13 @@
 **Relevance:** High
 
 **Overview:** Testing utilized Kali Linux and tools (ex: OWASP ZAP, Acunetix, Nmap, Paros, and others)
+
+
+## Scanning of Web-Applications: Algorithms and Software for Search of Vulnerabilities “Code Injection” and “Insecure Design” (Sept 2023)
+[Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/IDAACS58523.2023.10348918) DOI: 10.1109/IDAACS58523.2023.10348918
+
+[PDF](https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10348918) 
+
+**Relevance:** High
+
+**Overview:** Analysis of existing algorithms and software capable of automatically scanning web applications (SQLMap, Blisqy, jSQL Injection, Checkov, Trivy, Snyk)

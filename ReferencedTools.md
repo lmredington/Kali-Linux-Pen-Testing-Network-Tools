@@ -2,11 +2,8 @@
 
 | Tools				| Phases Used																						| Features 																													| Example Commands	| Referenced Material |
 |----------|--------|----|----|
-
-
 | AutoGPT			| Reconnaissance & Planning[4]																		| Devise an external penetration testing plan; identify potential phishing targets (on Web page)							| 											| Mentioned: [4]	| 
 | Blisqy			| Scanning, Exploitation																			| Find and exploit Time-based Blind SQL injection vulnerabilities in HTTP headers											| ---										| Analysis: [6]	| 
----
 | Censys			|																									| Vulnerability detection and filtering													 									| 											| Used: [2]	| 
 | Checkov			| Scanning																							| --- 																														| --- 										| Mentioned: [6]	| 
 | CyberCheck		| Reconnaissance & Planning, Scanning																| Open-Source usercustomizable OSINT and Web Vulnerability scanner													 		| 											| Used: [2]	| 
@@ -23,14 +20,11 @@
 | Maltego			| Reconnaissance																					| OSINT tool for reconnaissance													 											| 											| Analysis: [3]; Used: [2]|
 | Metasploit 		| Gaining Access[3], Exploitation[3]																| Penetration testing platform; discovery, exploitation, and validation of vulnerabilities [6]; Leverge known exploits and techniques, simulate real-world attacks; Gain system access through shell-based access																				| 											| Used: [1]; Mentioned: [3],[6]	|
 | MySQL				|																									| 																															| 											| Used: [1]	| 
----
 | NetDiscover 		| Reconnaissance & Planning[1], Network Enumeration[1] 												| target IP 																												| 											| Used: [1] 	|
 | Nexpose			| Scanning[3]																						| 																															| 											| Mentioned: [3]	| 
----
 | Nmap 				| Reconnaissance & Planning[1], Network Enumeration[1]; Intelligence Gathering (PTES Stage)[5]		| ports, services, OS, fundamental vulnerabilities, host detection 															| "nmap disperindag.xxxprov.id"[5] 			| Analysis: [3],[5]; Used:[2],[3]; Mentioned: [6] 	|
 | nslookup			| Intelligence Gathering (PTES Stage)[5]															| DNS lookup; server and address information of website																		| "nslookup disperindog.xxxprov.go.id"[5] 	| Analysis: [5]	| 
 | Open VAS			| Scanning[3]																						| Vulnerability Scanner - produces report, denoting severity																| 											| Analysis: [3]	| 
----
 | Paros				| 																									| 																															| 											| Mentioned: [5]	| 
 | Shodan			|																									| IoT device search engine, vulnerability scanner, and port scanning													 	| 											| Used: [2]	| 
 | SQLMap			| Scanning																							| Automated detection of SQL injection vulnerabilities																		| ---										| Analysis: [6]	| 

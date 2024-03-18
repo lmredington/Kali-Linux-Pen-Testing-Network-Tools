@@ -41,17 +41,17 @@
 | Tools				| Phases Used																						| Features 																													| Example Commands	| Referenced Material |
 |-----|
 | Acunetix			| 																									| 																															| 											| Analysis: [7]; Mentioned: [5]	| 
-| HP Web Inspect	|---																								|---  																														|--- 										| Analysis: [7]	| 
-| NetSparker		|---																								|---  																														|--- 										| Analysis: [7]	| 
-| APPSCAN			|---																								|---  																														|--- 										| Analysis: [7]	| 
+| HP Web Inspect	|																								|   																														|  										| Analysis: [7]	| 
+| NetSparker		| 																								|   																														|  										| Analysis: [7]	| 
+| APPSCAN			| 																								|   																														|  										| Analysis: [7]	| 
 | Nessus			| Scanning[3]																						| 																															| 											| Analysis: [7]; Mentioned: [3]	| 
 | OWASP ZAP			| Vulnerability Analysis[5]																			| Identify Vulnerabilities on target website													 							| 											| Analysis: [7]; Mentioned: [5]	| 
 | Nikto				|																									| 																															| 											| Analysis: [7]; Used: [1]	| 
-| W3af				|---																								|---  																														|--- 										| Analysis: [7]	| 
-| Wapiti			|---																								|---  																														|--- 										| Analysis: [7]	| 
-| Arachni			|---																								|---  																														|--- 										| Analysis: [7]	| 
+| W3af				| 																								|   																														|  										| Analysis: [7]	| 
+| Wapiti			| 																								|   																														|  										| Analysis: [7]	| 
+| Arachni			| 																								|   																														|  										| Analysis: [7]	| 
 | Burp Suite		| Exploitation[3]																					| 																															| 											| Analysis: [3], [7]; Mentioned: [2]	| 
-| ZAP				|---																								|---  																														|--- 										| Analysis: [7]	| 
+| ZAP				| 																								|   																														|  										| Analysis: [7]	| 
 
 
 

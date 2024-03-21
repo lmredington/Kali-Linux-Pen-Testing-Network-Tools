@@ -4,7 +4,7 @@
 |-------------------|-----------------------------------------------------------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|---------------------------------------------------|
 | AutoGPT			| Reconnaissance & Planning[4]								| --- 			| Devise an external penetration testing plan; identify potential phishing targets (on Web page)																					| --- 										| Mentioned: [4]									| 
 | Blisqy			| Scanning, Exploitation									| --- 			| Find and exploit Time-based Blind SQL injection vulnerabilities in HTTP headers																									| --- 										| Analysis: [6]										| 
-| Censys			| * Bullet 1 <br> * Bullet 2 <br> * Bullet 3 | --- 			| Vulnerability detection and filtering													 																							| --- 										| Used: [2]											| 
+| Censys			| + Bullet 1 <br> + Bullet 2 <br> + Bullet 3 | --- 			| Vulnerability detection and filtering													 																							| --- 										| Used: [2]											| 
 | Checkov			| Scanning													| --- 			| --- 																																												| --- 										| Mentioned: [6]									| 
 | CyberCheck		| Reconnaissance & Planning, Scanning						| --- 			| Open-Source usercustomizable OSINT and Web Vulnerability scanner													 																| --- 										| Used: [2]											| 
 | dig				| Reconnaissance)[5]										| --- 			| DNS name servers information; Troubleshoot DNS problems													 																		| --- 										| Analysis: [5]										| 

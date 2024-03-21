@@ -20,13 +20,17 @@
 
 **Autonomous Task Execution Agents**
 
-	Take tasks from the task queue --> execute them -->	add new information to a memory store
+	Take tasks from the task queue --> execute them --> add new information to a memory store
 
 	Identifies new subsequent tasks that are pushed upon the task queue and are eventually executed
+
+<br>
 
 **Typical questions asked by pen-testers:**
 - “what is a good attack methodology”
 - “how to attack Active Directory”
+
+<br> 
 
 **Large language models (LLMs) - ChatCPT or GPT3.5**
 
@@ -78,7 +82,7 @@ Solution: AI
 <a id="equipment"></a>
 ## Equipment (ex: Raspberry Pi)  
 
-Vulnerable VM with GPT3.5 integrated - allowed it to analyze the machine for vulnerabilities and suggest attack vectors
+- Vulnerable VM with GPT3.5 integrated - allowed it to analyze the machine for vulnerabilities and suggest attack vectors
 
 <br> 
 
@@ -107,6 +111,8 @@ Vulnerable VM with GPT3.5 integrated - allowed it to analyze the machine for vul
 
 ## Misc
 
+<br>
+
 <a id="babyagi"></a>
 **AutoGPT (Tools):**
 
@@ -134,30 +140,29 @@ Vulnerable VM with GPT3.5 integrated - allowed it to analyze the machine for vul
 |----|
 | Asked AgentGPT to “Become domain admin in an Active Directory” 	| generated document contained highly realistic attack vectors such as password spraying, Kerberoasting, AS-REP roasting, exploiting Active Directory Certificate Services, abusing unconstrained delegation or exploiting group policies 	|
 
-	- provides a “pareddown” version of GPT-4
-	- focused on automated task generation, planning, and execution
+- provides a “pareddown” version of GPT-4
+- focused on automated task generation, planning, and execution
 
 <br>
 
 <a id="hackingbuddygpt"></a>
-**hackingBuddyGPT (Tools):
+**hackingBuddyGPT (Tools):**
 
-[github](https://github.com/ipa-lab/hackingBuddyGPT)
+[Github](https://github.com/ipa-lab/hackingBuddyGPT)
 
-	Purpose: allow for realistic evaluation
-
+Purpose: allow for realistic evaluation
 	- Python script that uses SSH to connect to a deliberately vulnerable lin.security Linux virtual machine
 	- Uses GPT3.5-turbo
 	- uses command output to identify potential security vulnerabilities (and provide exploitation example)
 	- suggested system commands were based upon pattern-matching and not on a deeper understanding of the Linux system or on model building
 	- The ethics filter was infrequently triggered (triggered more when asking "detail additional vulnerabilities")
 
-	Use case: low-privilege user wants to become the root user
+Use case: low-privilege user wants to become the root user
 	- the LLM can state a Linux shell command that will be executed over SSH on the virtual machine
 	- After retrieving the list of sudoers, GPT3.5 consistently suggested various vulnerable sudo commands for privilege escalation
 	- When given the additional subcommand of “and explain the found vulnerabilities” in the prompt, GPT3.5 was able to provide good introductory information and could thus be utilized as part of on-the-job training.
 
-	Considerations:
+Considerations:
 	- singular runs were not stable
 	- with multiple runs, results converged
 	- Compared to tools such as [linpeas.sh](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS), LLMs seem to be less deterministic
@@ -168,9 +173,9 @@ Vulnerable VM with GPT3.5 integrated - allowed it to analyze the machine for vul
 
 <a id="llmama"></a>
 **llama.cpp (Tools):**
-	- makes use of small-scale models (up to 13b parameters) feasible on consumer-grade hardware.
-	- models can be run without any cloud/API costs
-	- are not subject to any server-side moderation or censorship.
+- makes use of small-scale models (up to 13b parameters) feasible on consumer-grade hardware.
+- models can be run without any cloud/API costs
+- are not subject to any server-side moderation or censorship.
 
 <br>
 
@@ -180,15 +185,17 @@ Vulnerable VM with GPT3.5 integrated - allowed it to analyze the machine for vul
 Definition: curated database of knowledge about threat actors in the cybersecurity domain
 * covers different tactics, techniques, and procedures
 
-	T - Tactics
+	**T - Tactics**
 	- describes high-level objectives an adversary intends to achieve (e.g. reconnaissance, privilege escalation or collection)
-	T - Techniques
+	
+	**T - Techniques**
 	- each is a way to achieve a tactic (e.g. Abuse Elevation Control Mechanism: Sudo and Sudo Caching)
-	P - Procedures
+	
+	**P - Procedures**
 	- specific details of how an adversary executes a technique
 
-	- Training a new LLM is prohibitively expensive for most researchers, but existing LLMs can be refined or fine-tuned to specific use cases for feasible costs
-	-  Prompts have to be carefully prepared
+- Training a new LLM is prohibitively expensive for most researchers, but existing LLMs can be refined or fine-tuned to specific use cases for feasible costs
+-  Prompts have to be carefully prepared
 	
 <br>
 

@@ -5,7 +5,7 @@
 | AutoGPT			| Reconnaissance & Planning[4]										| --- 			| + Devise an external penetration testing plan <br> + identify potential phishing targets (on Web page) 										| --- 										| Mentioned: [4]									| 
 | Blisqy			| + Scanning <br> + Exploitation									| --- 			| Find and exploit Time-based Blind SQL injection vulnerabilities in HTTP headers 																| --- 										| Analysis: [6]										| 
 | Censys			|																	| --- 			| Vulnerability detection and filtering 																										| --- 										| Used: [2]											| 
-| Checkov			| Scanning															| --- 			| 																																				| --- 										| Mentioned: [6]									| 
+| Checkov			| Scanning															| --- 			| Scanning IaC templates													 																	| --- 										| Mentioned: [6]									| 
 | CyberCheck		| + Reconnaissance & Planning <br> + Scanning						| --- 			| Open-Source usercustomizable OSINT and Web Vulnerability scanner 																				| --- 										| Used: [2]											| 
 | dig				| Reconnaissance)[5]												| --- 			| DNS name servers information; Troubleshoot DNS problems 																						| --- 										| Analysis: [5]										| 
 | Dirbuster			| Exploitation[3]													| --- 			| Directory Enumeration													 																		| --- 										| Used: [1]											| 
@@ -21,7 +21,7 @@
 | Metasploit 		| + Gaining Access[3] <br> + Exploitation[3]						| --- 			| + Discovery, exploitation, and validation of vulnerabilities [6] <br> + Leverge known exploits and techniques, simulate real-world attacks 	| 											| Used: [1]; Mentioned: [3],[6]						|
 | MySQL				|																	| --- 			| 																																				|  											| Used: [1]											| 
 | NetDiscover 		| + Reconnaissance & Planning[1] <br> + Network Enumeration[1] 		| --- 			| target IP													 																					| 											| Used: [1]											|
-| Nexpose			| Scanning[3]														| --- 			| 																																				|  											| Mentioned: [3]									| 
+| Nexpose			| Scanning[3]														| --- 			| Explore software level network level vulnerabilities [3]													 									|  											| Mentioned: [3]									| 
 | Nmap 				| + Reconnaissance & Planning[1, 5] <br> + Network Enumeration[1] 	| --- 			| ports, services, OS, fundamental vulnerabilities, host detection 																				| "nmap disperindag.xxxprov.id"[5] 			| Analysis: [3],[5]; Used:[2],[3]; Mentioned: [6] 	|
 | nslookup			| Reconnaissance[5]													| --- 			| + DNS lookup <br> + server and address information of website 																				| "nslookup disperindog.xxxprov.go.id"[5] 	| Analysis: [5]										| 
 | Open VAS			| Scanning[3]														| --- 			| Vulnerability Scanner - produces report, denoting severity 																					| 											| Analysis: [3]										| 
@@ -44,7 +44,7 @@
 | HP Web Inspect	|																	| --- 			| 																																				| ---										| Analysis: [7]										| 
 | NetSparker		|																	| --- 			| 																																				| ---										| Analysis: [7]										| 
 | APPSCAN			|																	| --- 			| 																																				| ---										| Analysis: [7]										| 
-| Nessus			| Scanning[3]														| --- 			| 																																				| ---										| Analysis: [7]; Mentioned: [3]						| 
+| Nessus			| Scanning[3]														| --- 			| Explore software level network level vulnerabilities [3]													 									| ---										| Analysis: [7]; Mentioned: [3]						| 
 | OWASP ZAP			| Vulnerability Analysis[5]											| --- 			| Identify Vulnerabilities on target website													 												| ---										| Analysis: [7]; Mentioned: [5]						| 
 | Nikto				|																	| --- 			| 																																				| ---										| Analysis: [7]; Used: [1]							| 
 | W3af				|																	| --- 			| 																																				| ---										| Analysis: [7]										| 

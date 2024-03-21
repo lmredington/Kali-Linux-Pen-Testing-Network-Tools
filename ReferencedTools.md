@@ -7,7 +7,7 @@
 | Censys			|																	| --- 			| Vulnerability detection and filtering 																										| --- 										| Used: [2]											| 
 | Checkov			| Scanning															| --- 			| Scanning IaC templates													 																	| --- 										| Mentioned: [6]									| 
 | CyberCheck		| + Reconnaissance & Planning <br> + Scanning						| --- 			| Open-Source usercustomizable OSINT and Web Vulnerability scanner 																				| --- 										| Used: [2]											| 
-| dig				| Reconnaissance)[5]												| --- 			| DNS name servers information; Troubleshoot DNS problems 																						| --- 										| Analysis: [5]										| 
+| dig				| Reconnaissance)[5]												| Command line	| DNS name servers information; Troubleshoot DNS problems 																						| --- 										| Analysis: [5]										| 
 | Dirbuster			| Exploitation[3]													| --- 			| Directory Enumeration													 																		| --- 										| Used: [1]											| 
 | Enum4linux		|																	| --- 			| 																																				| --- 										| Used: [1]											| 
 | FFUF				|																	| --- 			| 																																				| --- 										| Used: [1]											| 
@@ -22,8 +22,8 @@
 | MySQL				|																	| --- 			| 																																				|  											| Used: [1]											| 
 | NetDiscover 		| + Reconnaissance & Planning[1] <br> + Network Enumeration[1] 		| --- 			| target IP													 																					| 											| Used: [1]											|
 | Nexpose			| Scanning[3]														| --- 			| Explore software level network level vulnerabilities [3]													 									|  											| Mentioned: [3]									| 
-| Nmap 				| + Reconnaissance & Planning[1, 5] <br> + Network Enumeration[1] 	| --- 			| ports, services, OS, fundamental vulnerabilities, host detection 																				| "nmap disperindag.xxxprov.id"[5] 			| Analysis: [3],[5]; Used:[2],[3]; Mentioned: [6] 	|
-| nslookup			| Reconnaissance[5]													| --- 			| + DNS lookup <br> + server and address information of website 																				| "nslookup disperindog.xxxprov.go.id"[5] 	| Analysis: [5]										| 
+| Nmap 				| + Reconnaissance & Planning[1, 5] <br> + Network Enumeration[1] 	| Command line	 ports, services, OS, fundamental vulnerabilities, host detection 																				| "nmap disperindag.xxxprov.id"[5] 			| Analysis: [3],[5]; Used:[2],[3]; Mentioned: [6] 	|
+| nslookup			| Reconnaissance[5]													| Command line	| + DNS lookup <br> + server and address information of website 																				| "nslookup disperindog.xxxprov.go.id"[5] 	| Analysis: [5]										| 
 | Open VAS			| Scanning[3]														| --- 			| Vulnerability Scanner - produces report, denoting severity 																					| 											| Analysis: [3]										| 
 | Paros				|																	| --- 			| 																																				| 											| Mentioned: [5]									| 
 | Shodan			|																	| --- 			| + IoT device search engine <br> + vulnerability scanner <br> + port scanning 																	|  											| Used: [2]											| 

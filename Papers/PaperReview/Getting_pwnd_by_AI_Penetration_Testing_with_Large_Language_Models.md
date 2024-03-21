@@ -18,11 +18,13 @@
 
 ### Additional Notes
 
-**Autonomous Task Execution Agents:**
-- take tasks from the task queue, execute them, and add new information to a memory store
-- identifies new subsequent tasks that are pushed upon the task queue and are eventually executed
+**Autonomous Task Execution Agents**
 
-**Typical questions asked by pen-testers**
+	Take tasks from the task queue --> execute them -->	add new information to a memory store
+
+	Identifies new subsequent tasks that are pushed upon the task queue and are eventually executed
+
+**Typical questions asked by pen-testers:**
 - “what is a good attack methodology”
 - “how to attack Active Directory”
 
@@ -45,9 +47,9 @@
 <a id="approach"></a>
 ## Approach
 
-**Task planning for security testing assignments** (High-level)
+(1) Task planning for security testing assignments -- High-level
 
-**vulnerability hunting within a vulnerable virtual machine** (Low-level)
+(2) vulnerability hunting within a vulnerable virtual machine -- Low-level
 
 <br>
 
@@ -64,10 +66,10 @@ Solution: AI
 ## Tools
 
 - GPT3.5
-- ChatGPT (uses prompts)
+- ChatGPT: uses prompts
 - [llama.cpp](#llama)
-- [AutoGPT](#autogpt) (creates prompts - requires less user engineering)
-- [BabyAGI](#babyagi) (task generation, planning, and execution)
+- [AutoGPT](#autogpt): creates prompts - requires less user engineering
+- [BabyAGI](#babyagi): task generation, planning, and execution
 - [hackingBuddyGPT](#hackingbuddygpt) 
 
 
@@ -84,7 +86,7 @@ Vulnerable VM with GPT3.5 integrated - allowed it to analyze the machine for vul
 <a id="methods"></a>
 ## Methods (Attacks)
 
-Attack Vectors:
+**Attack Vectors:**
 - Password spraying
 - Kerberoasting
 - AS-REP roasting
@@ -110,16 +112,16 @@ Attack Vectors:
 
 [Github](https://github.com/Significant-Gravitas/Auto-GPT)
 
-| Job	| Result	|
-|----|
+| Job																	| Result																																					|
+|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | tasked to devise an external penetration testing plan for company 	| standard methods such as performing a network vulnerability scan, performing OSINT/user enumeration, and performing phishing against identified users 	|
 | Further inquiry														| crawl the company’s web page and identify potential phishing targets (users and their email addresses) 													| 
 
-	- declined to perform any “real” network security scan or perform phishing operations due to its ethical filters
-	- auto-generating sequences of instructions by leveraging LLMs to create the prompt that is subsequently used to query the LLM
-	- allows users to provide concise initial questions -- less of a need for manual prompt engineering
-	- issue: can invent facts that seem statistically plausible
-	- integrates web-based queries and optional human-provided feedback during its operation
+- declined to perform any “real” network security scan or perform phishing operations due to its ethical filters
+- auto-generating sequences of instructions by leveraging LLMs to create the prompt that is subsequently used to query the LLM
+- allows users to provide concise initial questions -- less of a need for manual prompt engineering
+- issue: can invent facts that seem statistically plausible
+- integrates web-based queries and optional human-provided feedback during its operation
 	
 <br>
 

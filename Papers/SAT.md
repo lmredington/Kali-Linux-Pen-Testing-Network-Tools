@@ -55,7 +55,7 @@ Examples of attacks: CSS, SQLi, remote code execution, file inclusion, XSS
 - Arachni
 - OWASP Zed Attack Proxy (ZAP)
 - Havij
-- Fimap,
+- Fimap
 - Metasploit
 - Acunetix
 - Nexpose
@@ -105,7 +105,7 @@ Examples of attacks: CSS, SQLi, remote code execution, file inclusion, XSS
 
 	Provides:
 	
-	Exploit: XSS, SQL injections, Host Header Injection, and over 3000 other web vulnerabilities
+	Use: Exploits XSS, SQL injections, Host Header Injection, and over 3000 other web vulnerabilities
 
 	Additional Info:
 
@@ -237,7 +237,7 @@ Examples of attacks: CSS, SQLi, remote code execution, file inclusion, XSS
 	
 		generic command-line tool
 		
-		require4s minimum user interaction
+		requires minimum user interaction
 
 <br>
 

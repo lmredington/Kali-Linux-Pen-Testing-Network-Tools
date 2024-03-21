@@ -42,7 +42,7 @@
 -  [Dynamic scanners](#dynamic-scanner)
 	Takes more time
 	
-
+<br>
 
 <a id="tools"></a>
 ## Tools

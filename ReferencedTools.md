@@ -34,7 +34,9 @@
 | Trivy				| Scanning [6]														| --- 			| + Analyzes layers and dependencies within a container image to identify potential security issues <br> + returns detailed report				| ---										| Mentioned: [6]									| 
 | Wireshark			| Exploitation[3]													| --- 			| Capture network packets													 																	| ---										| Mentioned: [3]									| 
 | ZapBurp			| Access (Vuln. Analysis Phase)[3]									| --- 			| + Perform vulnerability scan <br> + Provide mitigation measures 																				| ---										| Analysis: [3]										| 
-
+| Netcraft			| Info Gathering [3] 												| GUI 			| hosting/network details and background 																										| ---										| Analysis: [3]										| 
+| Whois				| Info Gathering [3] 												| GUI 			| websites, and IP owner info 																													| ---										| Analysis: [3]										| 
+| Zenmap			| Info Gathering [3] 												| GUI 			| + Operating system and version <br> + List of open ports <br> + Services <br> + Monitoring <br> + Network inventory kind of tasks				| ---										| Analysis: [3]										| 
 
 <br> 
 

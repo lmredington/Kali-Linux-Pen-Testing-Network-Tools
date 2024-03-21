@@ -1,10 +1,14 @@
 ## Getting pwn’d by AI: Penetration Testing with Large Language Models (Dec. 2023)
 
+<br>
+
 | Resources	|
 |----------|
 | [Database](https://dl-acm-org.ezproxy.semo.edu:2443/doi/10.1145/3611643.3613083) |
 | DOI: 10.1145/3611643.3613083) |
 | [PDF](https://dl-acm-org.ezproxy.semo.edu:2443/doi/pdf/10.1145/3611643.3613083) |
+
+<br>
 
 ----
 
@@ -18,11 +22,13 @@
 
 ### Additional Notes
 
+<br>
+
 **Autonomous Task Execution Agents**
 
-	Take tasks from the task queue --> execute them --> add new information to a memory store
+Take tasks from the task queue --> execute them --> add new information to a memory store
 
-	Identifies new subsequent tasks that are pushed upon the task queue and are eventually executed
+Identifies new subsequent tasks that are pushed upon the task queue and are eventually executed
 
 <br>
 
@@ -34,13 +40,13 @@
 
 **Large language models (LLMs) - ChatCPT or GPT3.5**
 
-	Experimented asking LLM to help design penetration tests for both generic scenarios and concrete target organization
+Experimented asking LLM to help design penetration tests for both generic scenarios and concrete target organization
 
-	Use: help design penetration tests, generate phishing or vishing messages, automated report generation (for pen-test and red teaming)
-	
-	- should be able to cover the whole TTP spectrum 
-	- select suitable tactics and corresponding techniques
-	- given an employed tactic, derive feasible techniques and procedures
+Use: help design penetration tests, generate phishing or vishing messages, automated report generation (for pen-test and red teaming)
+
+- should be able to cover the whole TTP spectrum 
+- select suitable tactics and corresponding techniques
+- given an employed tactic, derive feasible techniques and procedures
 
 <br>
 
@@ -137,7 +143,7 @@ Solution: AI
 [Website](https://github.com/yoheinakajima/babyagi)
 
 | Job	| Result	|
-|----|
+|-------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Asked AgentGPT to “Become domain admin in an Active Directory” 	| generated document contained highly realistic attack vectors such as password spraying, Kerberoasting, AS-REP roasting, exploiting Active Directory Certificate Services, abusing unconstrained delegation or exploiting group policies 	|
 
 - provides a “pareddown” version of GPT-4
@@ -151,23 +157,23 @@ Solution: AI
 [Github](https://github.com/ipa-lab/hackingBuddyGPT)
 
 Purpose: allow for realistic evaluation
-	- Python script that uses SSH to connect to a deliberately vulnerable lin.security Linux virtual machine
-	- Uses GPT3.5-turbo
-	- uses command output to identify potential security vulnerabilities (and provide exploitation example)
-	- suggested system commands were based upon pattern-matching and not on a deeper understanding of the Linux system or on model building
-	- The ethics filter was infrequently triggered (triggered more when asking "detail additional vulnerabilities")
+- Python script that uses SSH to connect to a deliberately vulnerable lin.security Linux virtual machine
+- Uses GPT3.5-turbo
+- uses command output to identify potential security vulnerabilities (and provide exploitation example)
+- suggested system commands were based upon pattern-matching and not on a deeper understanding of the Linux system or on model building
+- Ethics filter was infrequently triggered (triggered more when asking "detail additional vulnerabilities")
 
 Use case: low-privilege user wants to become the root user
-	- the LLM can state a Linux shell command that will be executed over SSH on the virtual machine
-	- After retrieving the list of sudoers, GPT3.5 consistently suggested various vulnerable sudo commands for privilege escalation
-	- When given the additional subcommand of “and explain the found vulnerabilities” in the prompt, GPT3.5 was able to provide good introductory information and could thus be utilized as part of on-the-job training.
+- the LLM can state a Linux shell command that will be executed over SSH on the virtual machine
+- After retrieving the list of sudoers, GPT3.5 consistently suggested various vulnerable sudo commands for privilege escalation
+- When given the additional subcommand of “and explain the found vulnerabilities” in the prompt, GPT3.5 was able to provide good introductory information and could thus be utilized as part of on-the-job training.
 
 Considerations:
-	- singular runs were not stable
-	- with multiple runs, results converged
-	- Compared to tools such as [linpeas.sh](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS), LLMs seem to be less deterministic
-	- switching from OpenAI to one of the locally running LLMs would remove all server-side ethics checks
-	- Using LLMs to generate and optimize the prompts themselves, similar to AutoGPT, might improve their effectiveness (current is static and manual)
+- singular runs were not stable
+- with multiple runs, results converged
+- Compared to tools such as [linpeas.sh](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS), LLMs seem to be less deterministic
+- switching from OpenAI to one of the locally running LLMs would remove all server-side ethics checks
+- Using LLMs to generate and optimize the prompts themselves, similar to AutoGPT, might improve their effectiveness (current is static and manual)
 
 <br>
 

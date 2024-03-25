@@ -1,6 +1,6 @@
 General Ideas:
 
-## Lit
+## Literature
 
 ### FOOTHOLDER: Collection of tools and scripts used to learn and experiment the exploitation of vulnerable machines (Apr. 2023)
 [Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/ICNWC57852.2023.10127486) DOI: 10.1109/ICNWC57852.2023.10127486

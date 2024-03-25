@@ -1,3 +1,64 @@
+General Ideas:
+
+## Lit
+
+### FOOTHOLDER: Collection of tools and scripts used to learn and experiment the exploitation of vulnerable machines (Apr. 2023)
+[Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/ICNWC57852.2023.10127486) DOI: 10.1109/ICNWC57852.2023.10127486
+
+**Relevance:** Medium
+
+**Overview:** Tool to educate users about tools and how to use them
+
+
+### Kali Linux based Empirical Investigation on Vulnerability Evaluation using Pen-Testing tools (July 2023)
+[Database:](https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/document/10235163) DOI: 10.1109/WCONF58270.2023.10235163
+
+**Relevance:** HIGH
+
+**Overview:** Describes the foundations of penetration testing, tools and methodologies for penetration testing using Kali Linux
+
+
+### Cybercheck – OSINT & Web Vulnerability Scanner (2023)
+[Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/ICECAA58104.2023.10212207) DOI: 10.1109/ICECAA58104.2023.10212207
+
+**Relevance:** HIGH
+
+**Overview:** Open-Source Intelligence (OSINT) and Web Vulnerability Scanning
+
+
+## Getting pwn’d by AI: Penetration Testing with Large Language Models (Dec. 2023)
+[Database:](https://dl-acm-org.ezproxy.semo.edu:2443/doi/10.1145/3611643.3613083) DOI: 10.1145/3611643.3613083
+
+**Relevance:** High
+
+**Overview:** Uses of large-language models, such as GPT3.5, to augment penetration testers with AI sparring partners. 
+
+
+## An Analysis of Vulnerability Scanners in Web Applications for VAPT (May 2022)
+[Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/CISES54857.2022.9844365) DOI: 10.1109/CISES54857.2022.9844365
+
+**Relevance:** HIGH
+
+**Overview:** focus on various vulnerability analysis tools forming basis for VAPT and try to analyze the various impact with respect to stages of penetration testing.
+
+
+## Security Vulnerability Analysis using Penetration Testing Execution Standard (PTES): Case Study of Government’s Website (Mar. 2023)
+[Database:](https://doi-org.ezproxy.semo.edu:2443/10.1145/3592307.3592329) DOI: 10.1145/3592307.3592329
+
+**Relevance:** High
+
+**Overview:** Testing utilized Kali Linux and tools (ex: OWASP ZAP, Acunetix, Nmap, Paros, and others)
+
+
+## Scanning of Web-Applications: Algorithms and Software for Search of Vulnerabilities “Code Injection” and “Insecure Design” (Sept 2023)
+[Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/IDAACS58523.2023.10348918) DOI: 10.1109/IDAACS58523.2023.10348918
+
+[PDF](https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10348918) 
+
+**Relevance:** High
+
+**Overview:** Analysis of existing algorithms and software capable of automatically scanning web applications (SQLMap, Blisqy, jSQL Injection, Checkov, Trivy, Snyk)
+
 # Referenced Tools
 
 | Tools				| Phases Used														|  Interface 					| Features 																																		| 	Example Commands						| Referenced Material 								|

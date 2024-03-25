@@ -229,7 +229,7 @@
 
 **Relevance:** HIGH
 
-**Overview:** focus on various vulnerability analysis tools forming basis for VAPT for short and try to analyze the various impact with respect to stages of penetration testing.
+**Overview:** focus on various vulnerability analysis tools forming basis for VAPT and try to analyze the various impact with respect to stages of penetration testing.
 
 
 ## Security Vulnerability Analysis using Penetration Testing Execution Standard (PTES): Case Study of Government’s Website (Mar. 2023)

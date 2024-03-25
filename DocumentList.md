@@ -25,18 +25,6 @@
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
-## SAT: Integrated Multi-agent Blackbox Security Assessment Tool using Machine Learning (March 2022)
-[Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/ICAI55435.2022.9773750) DOI: 10.1109/ICAI55435.2022.9773750
-
-[PDF](https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=9773750) 
-
-### Relevance: HIGH
-* < 2 years
-* Key words: Web Applications, Web Security, Web Vulnerability Scanner, OWASP, DVWA, Pentesting, Security Testing
-* proposed an Integrated Multi-Agent Blackbox Security Assessment Tool (SAT) for the security assessment of web applications. Research has proved that the vulnerabilities assessment results of the SAT are more extensive and accurate
-
-<!-- --------------------------------------------------------------------------------------------------------------------- -->
-
 ## Cyber Security Actionable Education during COVID19 Third Wave in India (Apr. 2022)	
 [Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/ICIEM54221.2022.9853091) DOI: 10.1109/ICIEM54221.2022.9853091
 
@@ -243,8 +231,14 @@
 ## Scanning of Web-Applications: Algorithms and Software for Search of Vulnerabilities “Code Injection” and “Insecure Design” (Sept 2023)
 [Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/IDAACS58523.2023.10348918) DOI: 10.1109/IDAACS58523.2023.10348918
 
-[PDF](https://ieeexplore-ieee-org.ezproxy.semo.edu:2443/stamp/stamp.jsp?tp=&arnumber=10348918) 
-
 **Relevance:** High
 
 **Overview:** Analysis of existing algorithms and software capable of automatically scanning web applications (SQLMap, Blisqy, jSQL Injection, Checkov, Trivy, Snyk)
+
+
+## SAT: Integrated Multi-agent Blackbox Security Assessment Tool using Machine Learning (March 2022)
+[Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/ICAI55435.2022.9773750) DOI: 10.1109/ICAI55435.2022.9773750
+
+**Relevance:** HIGH
+
+**Overview:** Evaluated publicly available web vulnerability scanners and proposed an Integrated Multi-Agent Blackbox Security Assessment Tool (SAT) which uses a scanning engine, vulnerability database, and knowledgebase

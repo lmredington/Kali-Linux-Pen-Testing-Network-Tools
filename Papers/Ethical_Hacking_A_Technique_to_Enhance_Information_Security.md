@@ -44,6 +44,9 @@ Access Control flaws, hardcoded back-door, and identification of multi cover att
 * Black-box
 	- higher possibility scanner generates falsify detected vulnerabilities
 	
+**Use WIVET Crawler for increased coverage**
+
+	
 ### SAT
 
 **Process Initiator (PI)**
@@ -137,18 +140,18 @@ Access Control flaws, hardcoded back-door, and identification of multi cover att
 	
 | Rate 						| Percentage 	| Rank 	|
 |---------------------------|---------------|-------|
-| Precision (CSS & SQLi) 	| 100%			| 1 	|
+| Precision (CSS & SQLi) 	| 100%			| most 	|
 
 | OWASP Top 10 								| Detected 	| Most 	| Rank 	|
 |-------------------------------------------|-----------|-------|-------|
-| Broken Object Level Authorization (A1) 	| 115 		| 115 	| 1 	|
-| Broken Authentication (A2) 				| 3 		| 3		| 1 	|
-| Excessive Data Exposure (A3) 				| 145  		| 145 	| 1		|
+| Broken Object Level Authorization (A1) 	| 115 		| 115 	| most 	|
+| Broken Authentication (A2) 				| 3 		| 3		| most 	|
+| Excessive Data Exposure (A3) 				| 145  		| 145 	| most	|
 | Lack of Resources and Rate Limiting (A4) 	| 2 		| 11	| 2 	|
-| Broken Function Level Authorization (A5)	| 51 		| 51	| 1	 	|
-| Mass Assignment (A6) 						| 23 		| 27	| 3		|
-| SecurityMisconfiguration (A7) 			| 165 		| 743 	| 7		|
-| Injection (A8) 							| 133 		| 133	| 1		|
+| Broken Function Level Authorization (A5)	| 51 		| 51	| most	|
+| Mass Assignment (A6) 						| 23 		| 27	| 4		|
+| Security Misconfiguration (A7) 			| 165 		| 743 	| 7		|
+| Injection (A8) 							| 133 		| 133	| most	|
 | Improper Assets Management (A9) 			| 12 		| 15	| 3		|
 | Insufficient Logging and Monitoring (A10) | 65 		| 95	| 2		|
 
@@ -171,23 +174,36 @@ Access Control flaws, hardcoded back-door, and identification of multi cover att
 
 | Rate 						| Percentage 	| Rank 	|
 |---------------------------|---------------|-------|
-|Precision (CSS & SQLi) 	| 44.1%			| - 	|
+|Precision (CSS & SQLi) 	| 44.1%			| low 	|
 
 | OWASP Top 10 								| Detected 	| Most 	| Rank 	|
 |-------------------------------------------|-----------|-------|-------|
-| Broken Object Level Authorization (A1) 	| - 		| 115 	| - 	|
-| Broken Authentication (A2) 				| - 		| 3		| - 	|
-| Excessive Data Exposure (A3) 				| -  		| 145 	| -		|
-| Lack of Resources and Rate Limiting (A4) 	| - 		| 11	| - 	|
-| Broken Function Level Authorization (A5)	| - 		| 51	| -	 	|
-| Mass Assignment (A6) 						| - 		| 27	| -		|
-| SecurityMisconfiguration (A7) 			| - 		| 743 	| -		|
-| Injection (A8) 							| - 		| 133	| -		|
-| Improper Assets Management (A9) 			| - 		| 15	| -		|
-| Insufficient Logging and Monitoring (A10) | - 		| 95	| -		|
+| Broken Object Level Authorization (A1) 	| 67 		| 115 	| 2 	|
+| Broken Authentication (A2) 				| 0 		| 3		| least |
+| Excessive Data Exposure (A3) 				| 90  		| 145 	| 3		|
+| Lack of Resources and Rate Limiting (A4) 	| 2 		| 11	| 2 	|
+| Broken Function Level Authorization (A5)	| 30 		| 51	| 2	 	|
+| Mass Assignment (A6) 						| 27 		| 27	| most	|
+| Security Misconfiguration (A7) 			| 180 		| 743 	| 5		|
+| Injection (A8) 							| 52 		| 133	| 5		|
+| Improper Assets Management (A9) 			| 15 		| 15	| most	|
+| Insufficient Logging and Monitoring (A10) | 85 		| 95	| most	|
 	
 	Definition: launch attacks on web systems
+	
+	Pros:
+		
+		Higher detection of:
+			- Mass Assignment
+			- Improper Assets Management
+			- Insufficient Logging and Monitoring
 
+	Con: 
+		
+		Lower detection of: 
+		
+			- Broken Authentication
+			
 	Goal: 
 
 	Provides: 
@@ -202,33 +218,31 @@ Access Control flaws, hardcoded back-door, and identification of multi cover att
 	
 | Rate 						| Percentage 	| Rank 	|
 |---------------------------|---------------|-------|
-|Precision (CSS & SQLi) 	| 98.5%			| - 	|
+|Precision (CSS & SQLi) 	| 98.5%			| 3 	|
 
 | OWASP Top 10 								| Detected 	| Most 	| Rank 	|
 |-------------------------------------------|-----------|-------|-------|
-| Broken Object Level Authorization (A1) 	| - 		| 115 	| - 	|
-| Broken Authentication (A2) 				| - 		| 3		| - 	|
-| Excessive Data Exposure (A3) 				| -  		| 145 	| -		|
-| Lack of Resources and Rate Limiting (A4) 	| - 		| 11	| - 	|
-| Broken Function Level Authorization (A5)	| - 		| 51	| -	 	|
-| Mass Assignment (A6) 						| - 		| 27	| -		|
-| SecurityMisconfiguration (A7) 			| - 		| 743 	| -		|
-| Injection (A8) 							| - 		| 133	| -		|
-| Improper Assets Management (A9) 			| - 		| 15	| -		|
-| Insufficient Logging and Monitoring (A10) | - 		| 95	| -		|
+| Broken Object Level Authorization (A1) 	| 60 		| 115 	| 3 	|
+| Broken Authentication (A2) 				| 0 		| 3		| least |
+| Excessive Data Exposure (A3) 				| 113  		| 145 	| 2		|
+| Lack of Resources and Rate Limiting (A4) 	| 1 		| 11	| 3 	|
+| Broken Function Level Authorization (A5)	| 15 		| 51	| 6	 	|
+| Mass Assignment (A6) 						| 25 		| 27	| 4		|
+| Security Misconfiguration (A7) 			| 140 		| 743 	| 9		|
+| Injection (A8) 							| 115 		| 133	| 2		|
+| Improper Assets Management (A9) 			| 11 		| 15	| 4		|
+| Insufficient Logging and Monitoring (A10) | 55 		| 95	| 3		|
 	
 	Definition: web scanner to discover web vulnerabilities
 
-	Goal: 
-
-	Provides:
+	Con: 
+		
+		Lower detection of: 
+		
+			- Broken Authentication
 	
 	Attacks: XSS and SQLi
 	
-	Precision: 98.5% for SQLi and CSS
-
-	
-	Additional Info:
 
 <br>
 
@@ -239,26 +253,29 @@ Definition: Provides centralized control several additional functionalities such
 
 | Rate 						| Percentage 	| Rank 	|
 |---------------------------|---------------|-------|
-|Precision (CSS & SQLi) 	| 84%			| - 	|
+|Precision (CSS & SQLi) 	| 84%			| 7 	|
 
 | OWASP Top 10 								| Detected 	| Most 	| Rank 	|
 |-------------------------------------------|-----------|-------|-------|
-| Broken Object Level Authorization (A1) 	| - 		| 115 	| - 	|
-| Broken Authentication (A2) 				| - 		| 3		| - 	|
-| Excessive Data Exposure (A3) 				| -  		| 145 	| -		|
-| Lack of Resources and Rate Limiting (A4) 	| - 		| 11	| - 	|
-| Broken Function Level Authorization (A5)	| - 		| 51	| -	 	|
-| Mass Assignment (A6) 						| - 		| 27	| -		|
-| SecurityMisconfiguration (A7) 			| - 		| 743 	| -		|
-| Injection (A8) 							| - 		| 133	| -		|
-| Improper Assets Management (A9) 			| - 		| 15	| -		|
-| Insufficient Logging and Monitoring (A10) | - 		| 95	| -		|
-
-	Goal: 
+| Broken Object Level Authorization (A1) 	| 58 		| 115 	| 4 	|
+| Broken Authentication (A2) 				| 0 		| 3		| least |
+| Excessive Data Exposure (A3) 				| 88  		| 145 	| 5		|
+| Lack of Resources and Rate Limiting (A4) 	| 0 		| 11	| least	|
+| Broken Function Level Authorization (A5)	| 25 		| 51	| 3	 	|
+| Mass Assignment (A6) 						| 21 		| 27	| 6		|
+| Security Misconfiguration (A7) 			| 130 		| 743 	| 10	|
+| Injection (A8) 							| 95 		| 133	| 3		|
+| Improper Assets Management (A9) 			| 10 		| 15	| 5		|
+| Insufficient Logging and Monitoring (A10) | 45 		| 95	| 6		|
 
 	Provides: user's administration
-	
-	Attacks: 
+
+	Con: 
+		
+		Lower detection of: 
+		
+			- Broken Authentication
+			- Lack of Resources and Rate Limiting
 	
 	Additional Info:
 	
@@ -273,26 +290,32 @@ Detect multiple security vulnerabilities in the OS of targeted hosts [18], softw
 
 | Rate 						| Percentage 	| Rank 	|
 |---------------------------|---------------|-------|
-|Precision (CSS & SQLi) 	| 90.88%		| - 	|
+|Precision (CSS & SQLi) 	| 90.88%		| 6 	|
 	
 | OWASP Top 10 								| Detected 	| Most 	| Rank 	|
 |-------------------------------------------|-----------|-------|-------|
-| Broken Object Level Authorization (A1) 	| - 		| 115 	| - 	|
-| Broken Authentication (A2) 				| - 		| 3		| - 	|
-| Excessive Data Exposure (A3) 				| -  		| 145 	| -		|
-| Lack of Resources and Rate Limiting (A4) 	| - 		| 11	| - 	|
-| Broken Function Level Authorization (A5)	| - 		| 51	| -	 	|
-| Mass Assignment (A6) 						| - 		| 27	| -		|
-| SecurityMisconfiguration (A7) 			| - 		| 743 	| -		|
-| Injection (A8) 							| - 		| 133	| -		|
-| Improper Assets Management (A9) 			| - 		| 15	| -		|
-| Insufficient Logging and Monitoring (A10) | - 		| 95	| -		|
+| Broken Object Level Authorization (A1) 	| 54 		| 115 	| 5 	|
+| Broken Authentication (A2) 				| 0 		| 3		| least	|
+| Excessive Data Exposure (A3) 				| 29  		| 145 	| 8		|
+| Lack of Resources and Rate Limiting (A4) 	| 1 		| 11	| 3 	|
+| Broken Function Level Authorization (A5)	| 5 		| 51	| 10 	|
+| Mass Assignment (A6) 						| 15 		| 27	| 7		|
+| Security Misconfiguration (A7) 			| 100 		| 743 	| least	|
+| Injection (A8) 							| 49 		| 133	| 6		|
+| Improper Assets Management (A9) 			| 15 		| 15	| most	|
+| Insufficient Logging and Monitoring (A10) | 52 		| 95	| 4		|
 
-	Definition: 
-	
-	Provides:
-	
-	Attacks: 
+	Pros:
+		
+		Higher detection of:
+			- Improper Assets Management
+
+	Con: 
+		
+		Lower detection of: 
+		
+			- Securit yMisconfiguration
+			- Broken Authentication
 	
 	Additional Info:
 	
@@ -306,42 +329,44 @@ Definition: web security assessment tool
 
 | Rate 						| Percentage 	| Rank 	|
 |---------------------------|---------------|-------|
-|Precision (CSS & SQLi) 	| 100%			| - 	|
+|Precision (CSS & SQLi) 	| 100%			| most 	|
 
 | OWASP Top 10 								| Detected 	| Most 	| Rank 	|
 |-------------------------------------------|-----------|-------|-------|
-| Broken Object Level Authorization (A1) 	| - 		| 115 	| - 	|
-| Broken Authentication (A2) 				| - 		| 3		| - 	|
-| Excessive Data Exposure (A3) 				| -  		| 145 	| -		|
-| Lack of Resources and Rate Limiting (A4) 	| - 		| 11	| - 	|
-| Broken Function Level Authorization (A5)	| - 		| 51	| -	 	|
-| Mass Assignment (A6) 						| - 		| 27	| -		|
-| SecurityMisconfiguration (A7) 			| - 		| 743 	| -		|
-| Injection (A8) 							| - 		| 133	| -		|
-| Improper Assets Management (A9) 			| - 		| 15	| -		|
-| Insufficient Logging and Monitoring (A10) | - 		| 95	| -		|
+| Broken Object Level Authorization (A1) 	| 26 		| 115 	| 8 	|
+| Broken Authentication (A2) 				| 0 		| 3		| least |
+| Excessive Data Exposure (A3) 				| 11  		| 145 	| least	|
+| Lack of Resources and Rate Limiting (A4) 	| 11 		| 11	| most 	|
+| Broken Function Level Authorization (A5)	| 8 		| 51	| 9	 	|
+| Mass Assignment (A6) 						| 0 		| 27	| least	|
+| Security Misconfiguration (A7) 			| 743 		| 743 	| most	|
+| Injection (A8) 							| 13 		| 133	| 8		|
+| Improper Assets Management (A9) 			| 4 		| 15	| 10	|
+| Insufficient Logging and Monitoring (A10) | 36 		| 95	| 9		|
 
-	Goal: 
-
-	Provides: 
-	
-	Attacks: 
 	
 	Pros:
 		
 		Good to detect security configurations
 		
 		Ranked 1st for open-source tools in detecting low severity vulnerabilities
+		
+		Higher detection of:
+		
+			- Security Misconfiguration
+			- Lack of Resources and Rate Limiting
 	
 	Cons:
 	
-		Lower detection of CSS, File Injection, and Insecure Communication
-	
-	Additional Info:
-	
+		Lower detection of CSS, File Injection, and Insecure Communication	
+		
+		Lower detection of: 
+		
+			- Mass Assignment
+			- Excessive Data Exposure
+			- Broken Authentication
 		
 		
-
 <br>
 
 <a id="nikto"></a>
@@ -351,30 +376,38 @@ Use: Execute and scan for multiple items including malicious files/ programs, an
 
 | Rate 						| Percentage 	| Rank 	|
 |---------------------------|---------------|-------|
-|Precision (CSS & SQLi) 	| 71.4%			| - 	|
+|Precision (CSS & SQLi) 	| 71.4%			| 9 	|
 
 | OWASP Top 10 								| Detected 	| Most 	| Rank 	|
 |-------------------------------------------|-----------|-------|-------|
-| Broken Object Level Authorization (A1) 	| - 		| 115 	| - 	|
-| Broken Authentication (A2) 				| - 		| 3		| - 	|
-| Excessive Data Exposure (A3) 				| -  		| 145 	| -		|
-| Lack of Resources and Rate Limiting (A4) 	| - 		| 11	| - 	|
-| Broken Function Level Authorization (A5)	| - 		| 51	| -	 	|
-| Mass Assignment (A6) 						| - 		| 27	| -		|
-| SecurityMisconfiguration (A7) 			| - 		| 743 	| -		|
-| Injection (A8) 							| - 		| 133	| -		|
-| Improper Assets Management (A9) 			| - 		| 15	| -		|
-| Insufficient Logging and Monitoring (A10) | - 		| 95	| -		|
-
-	Definition: 
-
+| Broken Object Level Authorization (A1) 	| 18 		| 115 	| 10 	|
+| Broken Authentication (A2) 				| 0 		| 3		| least	|
+| Excessive Data Exposure (A3) 				| 18  		| 145 	| 9		|
+| Lack of Resources and Rate Limiting (A4) 	| 0 		| 11	| least |
+| Broken Function Level Authorization (A5)	| 4 		| 51	| least |
+| Mass Assignment (A6) 						| 10 		| 27	| 9		|
+| Security Misconfiguration (A7) 			| 545 		| 743 	| 2		|
+| Injection (A8) 							| 8 		| 133	| least	|
+| Improper Assets Management (A9) 			| 6 		| 15	| 9		|
+| Insufficient Logging and Monitoring (A10) | 43 		| 95	| 7		|
 
 	Provides: 
 	- scan configuration files of web servers (ex: multiple index files, server fingerprinting, and HTTP calls settings)
 
-	Attacks: 
-	
-	Additional Info:
+	Pros:
+		
+		Higher detection of:
+			- Security Misconfiguration
+
+	Con: 
+		
+		Lower detection of: 
+		
+			- Broken Authentication
+			- Lack of Resources and Rate Limiting
+			- Broken Function Level Authorization
+			- Injection
+			-  Broken Object Level Authorization
 
 <br>
 
@@ -385,22 +418,34 @@ Definition: Web Application Attack and Audit Framework
 	
 | Rate 						| Percentage 	| Rank 	|
 |---------------------------|---------------|-------|
-|Precision (CSS & SQLi) 	| 94.3%			| - 	|
+|Precision (CSS & SQLi) 	| 94.3%			| 5 	|
 
 | OWASP Top 10 								| Detected 	| Most 	| Rank 	|
 |-------------------------------------------|-----------|-------|-------|
-| Broken Object Level Authorization (A1) 	| - 		| 115 	| - 	|
-| Broken Authentication (A2) 				| - 		| 3		| - 	|
-| Excessive Data Exposure (A3) 				| -  		| 145 	| -		|
-| Lack of Resources and Rate Limiting (A4) 	| - 		| 11	| - 	|
-| Broken Function Level Authorization (A5)	| - 		| 51	| -	 	|
-| Mass Assignment (A6) 						| - 		| 27	| -		|
-| SecurityMisconfiguration (A7) 			| - 		| 743 	| -		|
-| Injection (A8) 							| - 		| 133	| -		|
-| Improper Assets Management (A9) 			| - 		| 15	| -		|
-| Insufficient Logging and Monitoring (A10) | - 		| 95	| -		|
+| Broken Object Level Authorization (A1) 	| 22 		| 115 	| 9 	|
+| Broken Authentication (A2) 				| 1 		| 3		| 2 	|
+| Excessive Data Exposure (A3) 				| 31  		| 145 	| 7		|
+| Lack of Resources and Rate Limiting (A4) 	| 0 		| 11	| least |
+| Broken Function Level Authorization (A5)	| 11 		| 51	| 8	 	|
+| Mass Assignment (A6) 						| 13 		| 27	| 8		|
+| Security Misconfiguration (A7) 			| 441 		| 743 	| 3		|
+| Injection (A8) 							| 15 		| 133	| 7		|
+| Improper Assets Management (A9) 			| 8 		| 15	| 7		|
+| Insufficient Logging and Monitoring (A10) | 26 		| 95	| 10	|
 
 	Goal: detect and exploit web application vulnerabilities
+	
+	Pros:
+		
+		Higher detection of:
+			- Broken Authentication
+
+	Con: 
+		
+		Lower detection of: 
+		
+			- Lack of Resources and Rate Limiting
+			- Insufficient Logging and Monitoring
 	
 	Additional Info:
 		
@@ -419,20 +464,20 @@ Def: Automates audit process
 	
 | Rate 						| Percentage 	| Rank 	|
 |---------------------------|---------------|-------|
-|Precision (CSS & SQLi) 	| 53%			| - 	|
+|Precision (CSS & SQLi) 	| 53%			| 10 	|
 
 | OWASP Top 10 								| Detected 	| Most 	| Rank 	|
 |-------------------------------------------|-----------|-------|-------|
-| Broken Object Level Authorization (A1) 	| - 		| 115 	| - 	|
-| Broken Authentication (A2) 				| - 		| 3		| - 	|
-| Excessive Data Exposure (A3) 				| -  		| 145 	| -		|
-| Lack of Resources and Rate Limiting (A4) 	| - 		| 11	| - 	|
-| Broken Function Level Authorization (A5)	| - 		| 51	| -	 	|
-| Mass Assignment (A6) 						| - 		| 27	| -		|
-| SecurityMisconfiguration (A7) 			| - 		| 743 	| -		|
-| Injection (A8) 							| - 		| 133	| -		|
-| Improper Assets Management (A9) 			| - 		| 15	| -		|
-| Insufficient Logging and Monitoring (A10) | - 		| 95	| -		|
+| Broken Object Level Authorization (A1) 	| 5 		| 115 	| least	|
+| Broken Authentication (A2) 				| 0 		| 3		| least |
+| Excessive Data Exposure (A3) 				| 42  		| 145 	| 6		|
+| Lack of Resources and Rate Limiting (A4) 	| 1 		| 11	| 3 	|
+| Broken Function Level Authorization (A5)	| 18 		| 51	| 4	 	|
+| Mass Assignment (A6) 						| 2 		| 27	| 10	|
+| Security Misconfiguration (A7) 			| 223 		| 743 	| 4		|
+| Injection (A8) 							| 10 		| 133	| 9		|
+| Improper Assets Management (A9) 			| 0 		| 15	| least	|
+| Insufficient Logging and Monitoring (A10) | 39 		| 95	| 8		|
 
 	Use: detects Injection, CSS, Command Execution Attacks, CRLF Injection, and File Disclosure
 
@@ -440,6 +485,13 @@ Def: Automates audit process
 	
 		unable to detect broken authentication and improper assets management
 		
+		Lower detection of: 
+		
+			- Improper Assets Management
+			- Broken Object Level Authorization
+			- Broken Authentication
+			- Mass Assignment
+			
 * Additional Info:
 	
 	- generic command-line tool
@@ -453,28 +505,33 @@ Def: Automates audit process
 	
 | Rate 						| Percentage 	| Rank 	|
 |---------------------------|---------------|-------|
-|Precision (CSS & SQLi) 	| 81.32%		| - 	|
+|Precision (CSS & SQLi) 	| 81.32%		| 8 	|
 
 | OWASP Top 10 								| Detected 	| Most 	| Rank 	|
 |-------------------------------------------|-----------|-------|-------|
-| Broken Object Level Authorization (A1) 	| - 		| 115 	| - 	|
-| Broken Authentication (A2) 				| - 		| 3		| - 	|
-| Excessive Data Exposure (A3) 				| -  		| 145 	| -		|
-| Lack of Resources and Rate Limiting (A4) 	| - 		| 11	| - 	|
-| Broken Function Level Authorization (A5)	| - 		| 51	| -	 	|
-| Mass Assignment (A6) 						| - 		| 27	| -		|
-| SecurityMisconfiguration (A7) 			| - 		| 743 	| -		|
-| Injection (A8) 							| - 		| 133	| -		|
-| Improper Assets Management (A9) 			| - 		| 15	| -		|
-| Insufficient Logging and Monitoring (A10) | - 		| 95	| -		|
+| Broken Object Level Authorization (A1) 	| 28 		| 115 	| 7 	|
+| Broken Authentication (A2) 				| 0 		| 3		| least |
+| Excessive Data Exposure (A3) 				| 15  		| 145 	| 10	|
+| Lack of Resources and Rate Limiting (A4) 	| 1 		| 11	| 3 	|
+| Broken Function Level Authorization (A5)	| 17 		| 51	| 5	 	|
+| Mass Assignment (A6) 						| 27 		| 27	| most	|
+| Security Misconfiguration (A7) 			| 180 		| 743 	| 5		|
+| Injection (A8) 							| 8 		| 133	| least	|
+| Improper Assets Management (A9) 			| 13 		| 15	| 2		|
+| Insufficient Logging and Monitoring (A10) | 25 		| 95	| least	|
 
-	Definition: 
+	Pros:
+		
+		Higher detection of:
+			- Mass Assignment
 
-	Goal: 
-
-	Provides: 
-	
-	Attacks: 
+	Con: 
+		
+		Lower detection of: 
+		
+			- Broken Authentication
+			- Injection
+			- Insufficient Logging and Monitoring
 	
 	Additional Info:
 	
@@ -492,35 +549,37 @@ Definition: Penetration testing toolkit
 
 | Rate 						| Percentage 	| Rank 	|
 |---------------------------|---------------|-------|
-|Precision (CSS & SQLi) 	| 98.5%			| - 	|
+|Precision (CSS & SQLi) 	| 98.5%			| 3 	|
 
 | OWASP Top 10 								| Detected 	| Most 	| Rank 	|
 |-------------------------------------------|-----------|-------|-------|
-| Broken Object Level Authorization (A1) 	| - 		| 115 	| - 	|
-| Broken Authentication (A2) 				| - 		| 3		| - 	|
-| Excessive Data Exposure (A3) 				| -  		| 145 	| -		|
-| Lack of Resources and Rate Limiting (A4) 	| - 		| 11	| - 	|
-| Broken Function Level Authorization (A5)	| - 		| 51	| -	 	|
-| Mass Assignment (A6) 						| - 		| 27	| -		|
-| SecurityMisconfiguration (A7) 			| - 		| 743 	| -		|
-| Injection (A8) 							| - 		| 133	| -		|
-| Improper Assets Management (A9) 			| - 		| 15	| -		|
-| Insufficient Logging and Monitoring (A10) | - 		| 95	| -		|
+| Broken Object Level Authorization (A1) 	| 29 		| 115 	| 6 	|
+| Broken Authentication (A2) 				| 0 		| 3		| least |
+| Excessive Data Exposure (A3) 				| 90  		| 145 	| 3		|
+| Lack of Resources and Rate Limiting (A4) 	| 1 		| 11	| 3 	|
+| Broken Function Level Authorization (A5)	| 12 		| 51	| 6	 	|
+| Mass Assignment (A6) 						| 27 		| 27	| most	|
+| Security Misconfiguration (A7) 			| 179 		| 743 	| 7		|
+| Injection (A8) 							| 55 		| 133	| 4		|
+| Improper Assets Management (A9) 			| 6 		| 15	| 9		|
+| Insufficient Logging and Monitoring (A10) | 52 		| 95	| 4		|
 	
 
 	Goal: verify attack vectors and detect vuln (authentication, injection, and security misconfigurations)
 
-	Provides: 
-	
-	Attacks: 
-	
 	Pros:
-	
-	
+		
+		Higher detection of:
+			- Mass Assignment
+
 	Cons:
 	
 		Ranked last for open-source tools in detecting low severity vulnerabilities
 	
+		Lower detection of: 
+		
+			- Broken Authentication
+			
 	Additional Info:
 	
 		Java-based

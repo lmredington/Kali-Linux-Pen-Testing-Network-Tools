@@ -86,20 +86,6 @@
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
-## Security Vulnerability Analysis and Recommendations for Open Media Vault Cloud Server on Raspberry Pi (Jan 2024)
-[Database:](https://doi.org/10.18280/isi.280321)  DOI: 10.18280/isi.280321
-
-[PDF](https://www.proquest.com/pqrl/docview/2843565061/fulltextPDF/D5525B4EB57E4771PQ/29?accountid=38003)
-
-### Relevance: HIGH
-* < 2 years
-* Key words: network security; vulnerability; port; Nmap; Nessus
-
-### Description
-* The analysis was executed using two prominent security tools, Nmap and Nessus. Upon employing Nmap and Nessus in the evaluation, several security vulnerabilities were identified on the OMV Cloud server utilizing Raspberry Pi.
-
-<!-- --------------------------------------------------------------------------------------------------------------------- -->
-
 ## A Systematic Literature Review on the Characteristics and Effectiveness of Web Application Vulnerability Scanners (March 2022)
 [Database:](https://doi-org.ezproxy.semo.edu:2443/10.1109/ACCESS.2022.3161522) DOI: 10.1109/ACCESS.2022.3161522
 
@@ -130,8 +116,6 @@
 [Database:](https://ezproxy.semo.edu:2443/login?url=https://www.proquest.com/pqrl/dissertations-theses/multinomial-classification-prediction-model/docview/2814733211/sem-2?accountid=38003) 
 
 [PDF](https://www.proquest.com/pqrl/docview/2814733211/fulltextPDF/F5BCFE5B8A524C9CPQ/1?accountid=38003)
-
-	
 
 ### Relevance: Medium
 * < 2 years
@@ -232,3 +216,11 @@
 **Relevance:** Low
 
 **Overview:** Hacking phases, general tools, types of attacks
+
+
+## Security Vulnerability Analysis and Recommendations for Open Media Vault Cloud Server on Raspberry Pi (Jan 2024)
+[Database:](https://doi.org/10.18280/isi.280321)  DOI: 10.18280/isi.280321
+
+**Relevance:** Medium
+
+**Overview:** Uses Nmap and Nessus to find vulnerabilities in the cloud

@@ -53,6 +53,13 @@ Access Control flaws, hardcoded back-door, and identification of multi cover att
 	
 **Use WIVET Crawler for increased coverage**
 
+Used **Arachni crawler** for generating URL lists with the OAuth authentication framework. These URLs are provided as a seed value to other open-source scanners (ZAP, W3af, and Wapiti), and their vulnerabilities, detection have been improved.
+
+<br>
+
+<a id="tools"></a>
+## Tools
+
 <br> 
 
 <a id="sat"></a>
@@ -62,36 +69,30 @@ Access Control flaws, hardcoded back-door, and identification of multi cover att
 
 **Process Initiator (PI)**
 	
-	Def: User input targeted URL in this module.
+Def: User input targeted URL in this module.
 	
-	Use:  host discovery and initialization of the scanning process
+Use:  host discovery and initialization of the scanning process
 	
-	Additional:
+Additional:
 	
-		Unreachable hosts are screened here and further process is terminated
+	Unreachable hosts are screened here and further process is terminated
 	
 **Security Assessment Unit (SAU)**
 	
-	Def: performs scanning of the input web application
+Def: performs scanning of the input web application
 	
-	Subsections: 
-	- Scanning Engine
-		- In mutual compliance with Zap, Nikto, and W3af
-		- Uses Arachni Crawler and provides features for custom plugin scripts like OAuth, etc.
-	- Vulnerabilities database: contains a list of all possible vulnerabilities of OWASP top 10
-	- Knowledgebase
-		- AI (Artificial Intelligence) based analysis engine
-		- responsible to identify security trends, Information leakage and highlight compromised critical data of scanned organizations.
+Subsections: 
+- Scanning Engine: uses Arachni Crawler and provides features for custom plugin scripts
+	- In mutual compliance with Zap, Nikto, and W3af
+	- custom plugin scripts like OAuth, etc.
+- Vulnerabilities database: contains a list of all possible vulnerabilities of OWASP top 10
+- Knowledgebase
+	- AI (Artificial Intelligence) based analysis engine
+	- responsible to identify security trends, Information leakage and highlight compromised critical data of scanned organizations.
 	
 **Reporting Unit (RU)**: responsible for the generation of a detailed report that contains identified vulnerabilities (and the details, assessment score, and remediation of each)
 
-
-<br>
-
-<a id="tools"></a>
-## Tools
-
-- [SAT](#sat)
+<br> 
 
 **(Mentioned by other resources):**
 - AppScan
@@ -551,6 +552,9 @@ Def: Automates audit process
 
 <img src="Images/Reported_Vuln_pre-post_Arachni_Crawler.png" alt="Alt Text" width="300">
 
+<br>
+
+<img src="Images/sat_config_table.png" alt="Alt Text" width="200">
 
 <br>
 

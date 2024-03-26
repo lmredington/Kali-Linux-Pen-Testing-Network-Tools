@@ -161,10 +161,7 @@ Access Control flaws, hardcoded back-door, and identification of multi cover att
 	
 	Pros:
 		
-		Higher detection of CSS, File Injection, Sensitive Data Exposure, CSRF, and Broken Authentication vulnerabilities
-
-	Additional Info:
-	
+		Higher detection of CSS, File Injection, Sensitive Data Exposure, CSRF, and Broken Authentication vulnerabilities	
 		
 
 <br>
@@ -203,12 +200,6 @@ Access Control flaws, hardcoded back-door, and identification of multi cover att
 		Lower detection of: 
 		
 			- Broken Authentication
-			
-	Goal: 
-
-	Provides: 
-	
-	Exploit: 
 	
 
 <br>

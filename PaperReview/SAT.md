@@ -53,10 +53,11 @@ Access Control flaws, hardcoded back-door, and identification of multi cover att
 	
 **Use WIVET Crawler for increased coverage**
 
+<br> 
+
 <a id="sat"></a>
 ### SAT
-##
-<img src="Images/SAT_framework.png" alt="Alt Text" width="500">
+- <img src="Images/SAT_framework.png" alt="Alt Text" width="500">
 
 
 **Process Initiator (PI)**

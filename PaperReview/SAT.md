@@ -55,7 +55,7 @@ Access Control flaws, hardcoded back-door, and identification of multi cover att
 
 <a id="sat"></a>
 ### SAT
-
+##
 <img src="Images/SAT_framework.png" alt="Alt Text" width="500">
 
 

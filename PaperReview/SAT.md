@@ -1,8 +1,24 @@
 # SAT: Integrated Multi-agent Blackbox Security Assessment Tool using Machine Learning (March 2022)
  
-<img src="Images/Reported_Vuln_pre-post_Arachni_Crawler.png" alt="Alt Text" width="300">
+<table>
+  <tr>
+    <th style="width: 100px;">Header 1</th>
+    <th style="width: 150px;">Header 2</th>
+    <th style="width: 200px;">Header 3</th>
+  </tr>
+  <tr>
+    <td>Row 1, Column 1</td>
+    <td>Row 1, Column 2</td>
+    <td>Row 1, Column 3</td>
+  </tr>
+  <tr>
+    <td>Row 2, Column 1</td>
+    <td>Row 2, Column 2</td>
+    <td>Row 2, Column 3</td>
+  </tr>
+</table>
 
- 
+
 | Resources	|
 |----------|
 | [Database](https://doi-org.ezproxy.semo.edu:2443/10.1109/ICAI55435.2022.9773750) |
@@ -548,7 +564,7 @@ Def: Automates audit process
 		
 		Paper used Arachni crawler for generating URL lists with the OAuth authentication framework. These URLs are provided as a seed value to other open-source scanners (ZAP, W3af, and Wapiti), and their vulnerabilities, detection have been improved.
 
-![Alt Text](Images/Reported_Vuln_pre-post_Arachni_Crawler.png)
+<img src="Images/Reported_Vuln_pre-post_Arachni_Crawler.png" alt="Alt Text" width="300">
 
 
 <br>

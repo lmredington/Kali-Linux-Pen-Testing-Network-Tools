@@ -27,6 +27,7 @@
 ## Approach
 
 **Ethical Hacking Phases:**
+
 (1) **Information Gathering**
 - Use Network mapping **tools** for internal hack	
 	- helps find network topology
@@ -36,15 +37,11 @@
 	- networking
 		
 (2) **Scanning**
-
-	Tools:
-	-------
+- Tools:
 	- Port Scanning: locate host and used topologies of target organization
 	- Network Scanning: identify active hosts
 	- Vulnerability Scanning: installed on target network to determine safety threats
-	
-	Data:
-	------
+- Data:
 	- kind of ports
 	- kind of services
 	- type of software

@@ -1,20 +1,13 @@
 # SAT: Integrated Multi-agent Blackbox Security Assessment Tool using Machine Learning (March 2022)
  
-<table>
+<table style="width: 50%">
   <tr>
-    <th style="width: 100px;">Header 1</th>
-    <th style="width: 150px;">Header 2</th>
-    <th style="width: 200px;">Header 3</th>
+    <th style="width: 20%">Header 1</th>
+    <th style="width: 30%">Header 2</th>
   </tr>
   <tr>
-    <td>Row 1, Column 1</td>
-    <td>Row 1, Column 2</td>
-    <td>Row 1, Column 3</td>
-  </tr>
-  <tr>
-    <td>Row 2, Column 1</td>
-    <td>Row 2, Column 2</td>
-    <td>Row 2, Column 3</td>
+    <td style="width: 20%">Data 1</td>
+    <td style="width: 30%">Data 2</td>
   </tr>
 </table>
 

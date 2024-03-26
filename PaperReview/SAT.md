@@ -2,8 +2,8 @@
  
 <table>
   <tr>
-    <th style="font-size: 12px;">Header 1</th>
-    <th style="font-size: 12px;">Header 2</th>
+    <th style="font-size: 20px;">Header 1</th>
+    <th style="font-size: 50px;">Header 2</th>
   </tr>
   <tr>
     <td style="font-size: 5px;">Data 1</td>

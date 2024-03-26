@@ -58,3 +58,7 @@ Definition: Penetration testing toolkit
 	
 
 <br>
+
+## [8] Ethical Hacking: A Technique to Enhance Information Security
+
+**Burp Suite:** mainly to track request and response between server and clients

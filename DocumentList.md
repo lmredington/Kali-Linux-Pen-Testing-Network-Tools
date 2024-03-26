@@ -56,24 +56,6 @@
 
 <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
-## Ethical Hacking: A Technique to Enhance Information Security (May 2022)
-[Database:](https://doi.org/10.1109/COM-IT-CON54601.2022.9850601) DOI: 10.1109/COM-IT-CON54601.2022.9850601
-
-### Relevance: Medium
-* < 2 years
-* Key words: Performance evaluation;Ethics;Computer hacking;Law;Organizations;Passwords;Network security;Hackers;Hacking;White Hat;Malicious Hacker
-
-### Description
-* Key words and overview of Pen testing/Ethical hacking - purpose
-* Types of Attack
-* Couple tools
-* Methods
-
-### Note/Quotes
-* "The primary **purpose** of ethical hacking is to test and ensure that an organization’s network is safe"
-
-<!-- --------------------------------------------------------------------------------------------------------------------- -->
-
 ## Unifying Web Security Assessments with MALA: A Modular Approach (Dec 2023)
 [Database:](https://doi.org/10.1109/SOLI60636.2023.10425601) DOI: 10.1109/SOLI60636.2023.10425601
 
@@ -242,3 +224,11 @@
 **Relevance:** HIGH
 
 **Overview:** Evaluated publicly available web vulnerability scanners and proposed an Integrated Multi-Agent Blackbox Security Assessment Tool (SAT) which uses a scanning engine, vulnerability database, and knowledgebase
+
+
+## Ethical Hacking: A Technique to Enhance Information Security (May 2022)
+[Database:](https://doi.org/10.1109/COM-IT-CON54601.2022.9850601) DOI: 10.1109/COM-IT-CON54601.2022.9850601
+
+**Relevance:** Low
+
+**Overview:** Hacking phases, general tools, types of attacks

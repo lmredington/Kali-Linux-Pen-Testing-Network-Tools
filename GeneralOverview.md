@@ -1,4 +1,11 @@
-General Ideas:
+# General Ideas:
+
+[SAT]
+
+Used **Arachni crawler** for generating URL lists with the OAuth authentication framework. These URLs are provided as a seed value to other open-source scanners (ZAP, W3af, and Wapiti), and their vulnerabilities, detection have been improved.
+
+**Effectiveness of a tool** depends upon its capability to efficiently crawl various web pages
+
 
 ## Literature
 

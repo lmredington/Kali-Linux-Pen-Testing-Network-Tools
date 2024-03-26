@@ -45,3 +45,15 @@ Detect multiple security vulnerabilities in the OS of targeted hosts [18], softw
 	Additional Info:
 	
 	- has hundreds of plugins that can be employed for detailed and customized scans.
+	
+<br>
+
+## [9] Security Vulnerability Analysis and Recommendations for Open Media Vault Cloud Server on Raspberry Pi
+
+- **Nessus**: assess network vulnerabilities and generate security recommendations for the OMV Cloud server
+	- show vulnerability category
+	- descriptions of each information are shown on the colored icons
+		- red icon: high vulnerability
+		- orange icon: medium vulnerability
+		- blue icon: low vulnerability
+	- information is also received in the form of data descriptions that are then processed in a table. 

@@ -36,6 +36,10 @@ Access Control flaws, hardcoded back-door, and identification of multi cover att
 
 **Precision Rate:** percentage of correctly detected vulnerabilities
 
+**OAuth:** open standard used for access delegation and it is commonly used as a way for Internet users to grant access. 
+
+**Effectiveness of a tool** depends upon its capability to efficiently crawl various web pages
+
 <br>
 
 ----
@@ -49,7 +53,7 @@ Access Control flaws, hardcoded back-door, and identification of multi cover att
 	
 **Use WIVET Crawler for increased coverage**
 
-	
+<a id="sat"></a>
 ### SAT
 
 **Process Initiator (PI)**
@@ -69,17 +73,21 @@ Access Control flaws, hardcoded back-door, and identification of multi cover att
 	Subsections: 
 	- Scanning Engine
 		- In mutual compliance with Zap, Nikto, and W3af
-		- Uses Arachni Crawler and provides features for costom plugin scripts like OAuth, etc.
+		- Uses Arachni Crawler and provides features for custom plugin scripts like OAuth, etc.
 	- Vulnerabilities database: contains a list of all possible vulnerabilities of OWASP top 10
 	- Knowledgebase
 		- AI (Artificial Intelligence) based analysis engine
 		- responsible to identify security trends, Information leakage and highlight compromised critical data of scanned organizations.
 	
+**Reporting Unit (RU)**: responsible for the generation of a detailed report that contains identified vulnerabilities (and the details, assessment score, and remediation of each)
+
 
 <br>
 
 <a id="tools"></a>
 ## Tools
+
+- [SAT](#sat)
 
 **(Mentioned by other resources):**
 - AppScan
@@ -95,13 +103,16 @@ Access Control flaws, hardcoded back-door, and identification of multi cover att
 - NetSparker
 - HP web inspect
 - Arachni
-- OWASP Zed Attack Proxy (ZAP)
+- OWASP Zed Attack Proxy (ZAP) - open-source crawler
 - Havij
 - Fimap
 - Metasploit
 - Acunetix
 - Nexpose
 
+**Mentioned**
+- **WIVET (Web-Input Vector Extractor Teaser) version 4**: bench-marking project specifically designed to assess crawling coverage
+	- tested Coverage when Seeded with WIVET Crawled Results
 <br>
 
 **Analyzed (Commercial Scanners):**
@@ -532,6 +543,10 @@ Def: Automates audit process
 		
 		Trains itself by learning from HTTP responses received during the scanning and testing during assessment
 		
+		Paper used Arachni crawler for generating URL lists with the OAuth authentication framework. These URLs are provided as a seed value to other open-source scanners (ZAP, W3af, and Wapiti), and their vulnerabilities, detection have been improved.
+
+![Alt Text](Images/Reported_Vuln_pre-post_Arachni_Crawler.png)
+
 
 <br>
 
@@ -611,5 +626,37 @@ Definition: Penetration testing toolkit
 
 ## Other Documents Referenced
 
-
+Symantec, “Welcome to integrated cyber defense.” [Online]. Available: https://www.symantec.com/ [Accessed: 25- Jun- 2022].
 	
+Shahid, Waleed Bin, et al. ”An enhanced deep learning based framework
+for web attacks detection, mitigation and attacker profiling.” Journal of
+Network and Computer Applications 198 (2022): 103270.
+
+[Online]. Available: https://www.acunetix.com/vulnerability-scanner/.
+[Accessed: 25- Aug- 2021].
+[15] ”Micro Focus”, Micro Focus, 2021. [Online].
+Available:https://www.microfocus.com/en-us/products/webinspectdynamic-analysis-dast/free-trial. [Accessed: 11- Jan- 2022].
+[16] ”Netsparker — Web Application Security For Enterprise”, [Online].
+Available: https://www.netsparker.com/. [Accessed: 28- Dec- 2021].
+[17] ”HCL Software”, Hcltechsw.com, 2021. [Online]. Available:
+https://www.hcltechsw.com/appscan. [Accessed: 28- Dec- 2021].
+[18] ”Nessus Product Family”, Tenable®, 2021. [Online]. Available:
+https://www.tenable.com/products/nessus. [Accessed: 29- Dec- 2021].
+[19] ”OWASP ZAP Zed Attack Proxy — OWASP”,[Online]. Available:
+https://owasp.org/www-project-zap/. [Accessed: 30- Dec- 2021].
+[20] ”Nikto2 — CIRT.net”, Cirt.net, 2021. [Online]. Available:
+https://cirt.net/Nikto2. [Accessed: 5- Jan- 2022].
+[21] ”w3af - Open Source Web Application Security Scanner”, W3af.org,
+2021. [Online]. Available: http://w3af.org/. [Accessed: 5- Jan- 2022].
+[22] ”Wapiti : Open-Source web-application vulnerability scanner in Python
+for Windows, Linux, BSD, OSX”, Wapiti.sourceforge.io, 2021. [Online].
+Available: https://wapiti.sourceforge.io/. [Accessed: 5- jan- 2022].
+[23] ”Arachni - Web Application Security Scanner Framework”, Arachni -
+Web Application Security Scanner Framework, 2021. [Online]. Available: https://www.arachni-scanner.com/. [Accessed: 5- Jan- 2022].
+[24] ”Burp Suite - Application Testing Software”, Portswigger.net, 2021.
+[Online]. Available: https://portswigger.net/burp. [Accessed: Jan- 2022].
+[25] Luo, Yunheng. ”SQLi-Fuzzer: A SQL Injection Vulnerability Discovery
+Framework Based on Machine Learning.” 2021 IEEE 21st International
+Conference on Communication Technology (ICCT). IEEE, 2021.
+[26] Peroli, Michele, et al. ”MobSTer: A model-based security testing
+framework for web applications

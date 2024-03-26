@@ -1,4 +1,4 @@
-# Metasploit
+# Linux
 
 [1] Footholder
 
@@ -18,6 +18,4 @@
 
 ## [8] Ethical Hacking: A Technique to Enhance Information Security
 
-- **Metasploit:** exploit tool for basic pen testing
-
-<br> 
+- **Linux**: open-source OS, directly manages a system's hardware and resources

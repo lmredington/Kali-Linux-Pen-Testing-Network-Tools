@@ -1,27 +1,4 @@
 # SAT: Integrated Multi-agent Blackbox Security Assessment Tool using Machine Learning (March 2022)
- 
-<table>
-  <tr>
-    <th style="font-size: 20px;">Header 1</th>
-    <th style="font-size: 50px;">Header 2</th>
-  </tr>
-  <tr>
-    <td style="font-size: 5px;">Data 1</td>
-    <td style="font-size: 7px;">Data 2</td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <th>Header 1</th>
-    <th>Header 2</th>
-  </tr>
-  <tr>
-    <td style="font-size: smaller;">Data 1</td>
-    <td style="font-size: smaller;">Data 2</td>
-  </tr>
-</table>
-
 
 | Resources	|
 |----------|
@@ -78,6 +55,9 @@ Access Control flaws, hardcoded back-door, and identification of multi cover att
 
 <a id="sat"></a>
 ### SAT
+
+<img src="Images/SAT_framework.png" alt="Alt Text" width="500">
+
 
 **Process Initiator (PI)**
 	

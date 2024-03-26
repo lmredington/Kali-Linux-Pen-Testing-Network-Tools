@@ -6,8 +6,8 @@
     <th style="font-size: 12px;">Header 2</th>
   </tr>
   <tr>
-    <td style="font-size: 10px;">Data 1</td>
-    <td style="font-size: 10px;">Data 2</td>
+    <td style="font-size: 5px;">Data 1</td>
+    <td style="font-size: 7px;">Data 2</td>
   </tr>
 </table>
 

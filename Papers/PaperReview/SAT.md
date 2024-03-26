@@ -16,6 +16,7 @@
 
 
 <br>
+
 ### Additional Notes
 
 Changes in configuration settings are adequate to affix only 17% of vulnerabilities, most of those have a low severity level. 
@@ -36,9 +37,11 @@ Access Control flaws, hardcoded back-door, and identification of multi cover att
 **Precision Rate:** percentage of correctly detected vulnerabilities
 
 <br>
+
 ----
 
 <br>
+
 <a id="approach"></a>
 ## Approach
 * Black-box
@@ -74,6 +77,7 @@ Access Control flaws, hardcoded back-door, and identification of multi cover att
 	
 
 <br>
+
 <a id="tools"></a>
 ## Tools
 
@@ -118,6 +122,7 @@ Access Control flaws, hardcoded back-door, and identification of multi cover att
 - [Burpsuite](#burpsuite): pen testing toolkit
 
 <br>
+
 <a id="equipment"></a>
 ## Equipment (ex: Raspberry Pi)  
 
@@ -125,13 +130,9 @@ Access Control flaws, hardcoded back-door, and identification of multi cover att
 
 <br>
 
-<a id="methods"></a>
-## Methods
-
-
-
-<br> 
 ----
+
+<br>
 
 ## Misc
 
@@ -313,6 +314,7 @@ Detect multiple security vulnerabilities in the OS of targeted hosts [18], softw
 	- has hundreds of plugins that can be employed for detailed and customized scans.
 
 <br>
+
 <a id="zap"></a>
 **ZAP (Open-Source Scanner):**
 	

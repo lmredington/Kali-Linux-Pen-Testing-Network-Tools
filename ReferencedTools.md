@@ -7,7 +7,7 @@
 | Arachni			|																			| --- 							| Crawler, good for detecting mass assignment vuln																																	| ---										| Analysis: [7]											| 
 | AutoGPT			| Reconnaissance & Planning[4]												| --- 							| + Devise an external penetration testing plan <br> + identify potential phishing targets (on Web page) 																			| --- 										| Mentioned: [4]										| 
 | Blisqy			| + Scanning <br> + Exploitation											| --- 							| Find and exploit Time-based Blind SQL injection vulnerabilities in HTTP headers 																									| --- 										| Analysis: [6]											| 
-| Burp Suite		| Exploitation[3]															| --- 							| Verify attack vectors and detect vuln (authentication, injection, and security misconfigurations) <br> + track request and response between server and clients 					| ---										| Analysis: [3], [7]; Mentioned: [2],[8]				| 
+| Burp Suite		| Exploitation[3]															| + GUI <br> + Command-line 	| Verify attack vectors and detect vuln (authentication, injection, and security misconfigurations) <br> + track request and response between server and clients 					| ---										| Analysis: [3], [7]; Mentioned: [2],[8]				| 
 | Censys			|																			| --- 							| Vulnerability detection and filtering 																																			| --- 										| Used: [2]												| 
 | Checkov			| Scanning																	| --- 							| Scanning IaC templates													 																										| --- 										| Mentioned: [6]										| 
 | CyberCheck		| + Reconnaissance & Planning <br> + Scanning								| --- 							| Open-Source usercustomizable OSINT and Web Vulnerability scanner 																													| --- 										| Used: [2]												| 
@@ -36,7 +36,7 @@
 | Open VAS			| Scanning[3]																| GUI 							| Vulnerability Scanner - produces report, denoting severity 																														| 											| Analysis: [3]											| 
 | OWASP ZAP			| Vulnerability Analysis[5]													| GUI 							| Identify Vulnerabilities on target website													 																					| ---										| Analysis: [7]; Mentioned: [5]							| 
 | Paros				|																			| --- 							| 																																													| 											| Mentioned: [5]										| 
-| SAT				| + Reconnaissance & Planning <br> + Scanning <br> + (Analysis) Report 					| --- 							| host discovery and initialization --> scanning of the input web application (Scanning Engine, Vulnerabilities Database, Knowledgebase) --> generate report 			| ---  										| Analysis: [7]											| 
+| SAT				| + Reconnaissance & Planning <br> + Scanning <br> + (Analysis) Report 		| --- 							| host discovery and initialization --> scanning of the input web application (Scanning Engine, Vulnerabilities Database, Knowledgebase) --> generate report 			| ---  										| Analysis: [7]											| 
 | Shodan			|																			| --- 							| + IoT device search engine <br> + vulnerability scanner <br> + port scanning 																										|  											| Used: [2]												| 
 | SQLMap			| Scanning																	| --- 							| Automated detection of SQL injection vulnerabilities 																																|  											| Analysis: [6]											| 
 | Snyk				| + Scanning <br> + Vuln Analysis											| --- 							| + (in Containers and IaC:) <br> Scan and prioritize information security <br> + Detect and identify vulnerabilities in modules 													| ---										| Mentioned: [6]										| 

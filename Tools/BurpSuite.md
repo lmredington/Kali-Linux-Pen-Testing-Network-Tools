@@ -62,3 +62,58 @@ Definition: Penetration testing toolkit
 ## [8] Ethical Hacking: A Technique to Enhance Information Security
 
 **Burp Suite:** mainly to track request and response between server and clients
+
+<br>
+
+## [A] TryHackMe - Burp Suite Basics
+
+**Burp Suite**
+- Java-based framework 
+- Designed to serve as a comprehensive solution for conducting web application penetration testing
+- Industry standard tool for hands-on **security assessments of web and mobile applications**, including those that rely on application programming interfaces (APIs).
+- Invaluable tool for manual web application testing.
+- Extensions can be written in Java, Python (using the Java Jython interpreter), or Ruby (using the Java JRuby interpreter)
+
+| Features 																					| Attack Example 	|
+|-------------------------------------------------------------------------------------------|-------------------|
+| Captures and enables manipulation of all the HTTP/HTTPS traffic between a browser and a 
+web server.		|
+| Intercept requests and route them to various components within the Burp Suite framework 	|
+| Ability to intercept, view, and modify web requests before they reach the target server	|
+| Manipulate responses before they are received by our browser								|
+| **Proxy:** enables interception and modification of requests and responses while 
+interacting with web applications 															|
+| **Repeater:** <br> 
+-  allows for capturing, modifying, and resending the same request multiple times
+<br> - useful when crafting payloads through trial and error (e.g., in SQLi)
+<br> - testing the functionality of an endpoint for vulnerabilities 						|
+| **Intruder:** allows for spraying endpoints with requests.
+<br> Used for: brute-force attacks or fuzzing endpoints 									|
+| **Decoder:** 
+<br> - decode captured information
+<br> - encode payloads before sending them to the target 									|
+| **Comparer:** enables the comparison of two pieces of data at either the word or byte level 	|
+| **Sequencer:** assesses the randomness of tokens (e.g. session cookie values or other supposedly randomly generated data). 	|
+
+
+<br> 
+
+**Burp Suite Professional** - unrestricted version of Burp Suite Community
+
+| Features 	|
+|-----------|
+| An automated vulnerability scanner.											|
+| A fuzzer/brute-forcer that isn't rate limited.								|
+| Saving projects for future use and report generation.							|
+| A built-in API to allow integration with other tools.							|
+| Unrestricted access to add new extensions for greater functionality. 			|
+| Access to the Burp Suite Collaborator (effectively providing a unique request 
+catcher self-hosted or running on a Portswigger-owned server).					|
+
+<br> 
+
+**Burp Suite Enterprise**
+
+| Features 	|
+|-----------|
+| Runs on a server and provides constant scanning for target web apps			|

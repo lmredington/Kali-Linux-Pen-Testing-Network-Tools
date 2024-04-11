@@ -1,5 +1,6 @@
 '''
 Requirement of Installed tools:
+    * git
     * nmap
     * netdiscover
     * wapiti

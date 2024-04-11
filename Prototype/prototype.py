@@ -1,3 +1,11 @@
+'''
+Requirement of Installed tools:
+    * nmap
+    * netdiscover
+    * wapiti
+    * nikto
+'''
+
 import xml.etree.ElementTree as ET
 import csv
 import subprocess

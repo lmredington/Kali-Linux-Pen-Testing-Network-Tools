@@ -36,6 +36,14 @@
 * **Traceroute** - penetration testing tool designed using the ICMP protocol at its core.
 * Ncrack - supports multiple protocols, including IMAP, POP3, HTTP, SSH, FTP, and RDP. You can use Ncrack for brute forcing attacks on passwords and SSH password cracking.
 
+# Other tools, system specific
+
+### TensorFlow 2
+
+<img src="Images/tensorFlow2_req.png" alt="Alt Text" width="500">
+
+* PyTorch is ideal for research and small-scale projects prioritizing flexibility, experimentation and quick editing capabilities for models. TensorFlow is ideal for large-scale projects and production environments that require high-performance and scalable models.
+
 
 ## Other Details
 Ettercap - Real-World Man-in-the-Middle (MITM) Attack Implementation Using Open Source Tools for Instructional Use (https://doi-org.ezproxy.semo.edu:2443/10.1109/EIT.2018.8500082)

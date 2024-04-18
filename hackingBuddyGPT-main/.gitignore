@@ -1,8 +1,0 @@
-.env
-venv/
-__pycache__/
-*.swp
-*.log
-.idea/
-*.sqlite3
-*.sqlite3-jounal
